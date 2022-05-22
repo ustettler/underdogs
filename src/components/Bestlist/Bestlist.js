@@ -17,11 +17,17 @@ export const Bestlist = () => {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+
   `;
 
   const Section1 = styled.div`
+  display:flex;ß
     color: white;
+    justify-content: flex-start;
+    align-content: flex-start;
+    text-align: right
+ 
   `;
 
   const Section2 = styled.div`
@@ -46,7 +52,7 @@ export const Bestlist = () => {
     font-size: clamp(1.5rem, 2vw, 3rem);
     font-weight: 500;
     padding: 3rem 1.5rem 0 2rem;
-    text-align: center;
+    text-align:left;
     font-family: "Roboto", sans-serif;
   
   // media queries
@@ -67,10 +73,10 @@ export const Bestlist = () => {
           <Section1>
             <H3>
               1. Hans Meier, VR Basel <br />
-              2. Hans Meier,VR Zürich <br />
+              2. Hans Meierhofer, VR Zürich <br />
               3. Hans Meier, VR Basel
               <br />
-              4. Hans Meier, VR Basel <br />
+              4. Hans Meierhofer, VR Basel <br />
               5. Hans Meier,VR Zürich <br />
             </H3>
           </Section1>
@@ -78,7 +84,7 @@ export const Bestlist = () => {
             <H3>
               6. Hans Meier, VR Zürich <br />
               7. Hans Meier, VR Aarau <br />
-              8. Hans Meier, VR Zürich <br />
+              8. Hans Meierhofer, VR Zürich <br />
               9. Hans Meier, VR Basel <br />
               10. Hans Meier, VR Zürich <br />
               <br />

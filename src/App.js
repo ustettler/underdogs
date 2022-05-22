@@ -12,6 +12,7 @@ import { Contact } from "./components/Contact/Contact";
 import { News } from "./components/News/News";
 import { Footer } from "./components/Footer/Footer";
 
+
 function App() {
   return (
     // Template - hier wird die Seite zusammengestellt
