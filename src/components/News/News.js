@@ -38,8 +38,6 @@ export const News = () => {
     font-family: "Roboto", sans-serif;
     `;
 
-
-
   const H2 = styled.h2`
     padding-top: 2rem;
     color: white;

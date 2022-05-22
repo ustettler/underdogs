@@ -40,12 +40,13 @@ export const Location = () => {
 
 
   // Font
-  const H2 = styled.h1`
+
+  const H2 = styled.h2`
     padding-top: 2rem;
     color: white;
     font-size: clamp(2rem, 2.5vw, 3.5rem);
-    font-weight: 500;
-    padding: 3rem 1.5rem 0 2rem;
+    font-weight: 600;
+    padding: 3rem 1.5rem 0 0;
     text-align: center;
     font-family: "Roboto", sans-serif;
   `;
