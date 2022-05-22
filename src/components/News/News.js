@@ -7,6 +7,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
+import "../../index.css"
+
 //import required modules
 import { Parallax, Pagination, Navigation } from "swiper";
 
@@ -19,28 +21,31 @@ export const News = () => {
     background: #87889c;
     color: white;
     font-family: "Roboto", sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
   `;
 
+
+  // Font
   const H3 = styled.h3`
     padding-top: 2rem;
-    text-align: justify; 
+    text-align: center;
     color: white;
     font-size: clamp(1.5rem, 2vw, 3rem);
     font-weight: 500;
-    padding: 3rem 1.5rem 0 2rem;
+    padding: 3rem 1.5rem 0 0;
     text-align:left;
     font-family: "Roboto", sans-serif;
     `;
 
 
 
-  // Font
   const H2 = styled.h2`
     padding-top: 2rem;
     color: white;
     font-size: clamp(2rem, 2.5vw, 3.5rem);
     font-weight: 600;
-    padding: 3rem 1.5rem 0 2rem;
+    padding: 3rem 1.5rem 0 0;
     text-align: center;
     font-family: "Roboto", sans-serif;
  
@@ -82,13 +87,16 @@ export const News = () => {
           data-swiper-parallax="-23%"
         ></div>
         <SwiperSlide>
-          <div className="title" data-swiper-parallax="-300">
+          <div className="title" data-swiper-parallax="-300"  style={{
+            "background-image":
+              "url(https://swiperjs.com/demos/images/nature-12.jpg)",
+          }}>
            <H3> News 1</H3>
           </div>
-          <div className="subtitle" data-swiper-parallax="-200">
-            VR Escape
-          </div>
-          <div className="text" data-swiper-parallax="-100">
+          <br/> 
+          <div className="text" data-swiper-parallax="-100" style={{
+       textAlign: "left",
+          }}>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
@@ -98,16 +106,18 @@ export const News = () => {
               ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
               tincidunt ut libero. Aenean feugiat non eros quis feugiat.
             </p>
+            <br/>
+            <br/>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="title" data-swiper-parallax="-300">
+          <div className="title" data-swiper-parallax="-300" >
            <H3> News 2</H3>
           </div>
-          <div className="subtitle" data-swiper-parallax="-200">
-            The Award!
-          </div>
-          <div className="text" data-swiper-parallax="-100">
+          <br/>
+          <div className="text" data-swiper-parallax="-100"   style={{
+       textAlign: "left",
+          }} >
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
@@ -117,16 +127,18 @@ export const News = () => {
               ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
               tincidunt ut libero. Aenean feugiat non eros quis feugiat.
             </p>
+            <br/>
+            <br/>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
             <H3>News 3</H3>
           </div>
-          <div className="subtitle" data-swiper-parallax="-200">
-            Best Game!
-          </div>
-          <div className="text" data-swiper-parallax="-100">
+          <br/> 
+          <div className="text" data-swiper-parallax="-100" style={{
+       textAlign: "left",
+          }}>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
@@ -136,9 +148,12 @@ export const News = () => {
               ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
               tincidunt ut libero. Aenean feugiat non eros quis feugiat.
             </p>
+            <br/>
+            <br/>
           </div>
         </SwiperSlide>
       </Swiper>
+        <br />
         <br />
       </Main>
     </>

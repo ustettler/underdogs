@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import SwissMap from "../Location/img/ch-karte.png"
 
 export const Location = () => {
   //CSS
   const Main = styled.div`
     width: 100vw;
-    height: 20vh;
+    height: auto;
     background: #4f4065;
     color: white;
     font-family: "Roboto", sans-serif;
@@ -28,6 +29,15 @@ export const Location = () => {
   const Section2 = styled.div`
     color: white;
   `;
+
+
+  // Img
+  const Img = styled.img`
+  width: 100%;
+  height: auto;
+  margin-bottom: 4rem;
+  `;
+
 
   // Font
   const H2 = styled.h1`
@@ -59,7 +69,10 @@ export const Location = () => {
     <>
       <Main>
         {/* Ab hier kommt das HTML rein */}
-        <H2>Location</H2>
+        <H2>Location</H2>    
+        <br/>
+        <h4>Hier findet man VR Center mit unserem Game</h4>
+        <Img src={SwissMap} alt="Schweizer Karte"/> 
       </Main>
     </>
   );
