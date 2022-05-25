@@ -28,3 +28,30 @@ code {
 .text {
 text-align: right;
 }
+
+/* NEWSLETTER */
+
+.newsletter_container{
+
+  position: relative;
+}
+
+#newsletter_box{
+  float: left;
+  position: absolute;
+  left: 35%;
+  top: 33%;
+  z-index: 1000;/* 
+  background-color: #ffffff;
+  opacity: 0.8; */
+  padding: 5px;
+  color: #4F4065; /* 87889C */
+  font-weight: bold;
+}
+
+
+/* CONTACT */
+.contact{
+
+  color: #4F4065; 
+}
