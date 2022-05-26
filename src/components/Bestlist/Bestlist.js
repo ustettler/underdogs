@@ -18,7 +18,6 @@ export const Bestlist = () => {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
   `;
 
   const Section1 = styled.div`
@@ -67,7 +66,7 @@ export const Bestlist = () => {
     <>
       <Main>
         {/* Ab hier kommt das HTML rein */}
-        <H2>Besteliste</H2>
+        <H2>Bestenliste</H2>
 
         <List>
           <Section1>
