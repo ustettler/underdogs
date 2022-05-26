@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+/* Tabelle licensing */
+table {
+  border-spacing: 0;
+  border: 1px solid white;
+}
+
+tr:last-child td {
+  border-bottom: 0;
+}
+
+th,
+td {
+  margin: 0;
+  padding: 0.5rem;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+th:last-child,
+td:last-child {
+  border-right: 0;
+}
+
+.container {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+}
