@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import SwissMap from "../Location/img/ch-karte.png"
+import SwissMap from "../Location/img/ch-karte.png";
 
 export const Location = () => {
   //CSS
@@ -30,14 +30,12 @@ export const Location = () => {
     color: white;
   `;
 
-
   // Img
   const Img = styled.img`
-  width: 100%;
-  height: auto;
-  margin-bottom: 4rem;
+    width: 100%;
+    height: auto;
+    margin-bottom: 4rem;
   `;
-
 
   // Font
 
@@ -70,10 +68,22 @@ export const Location = () => {
     <>
       <Main>
         {/* Ab hier kommt das HTML rein */}
-        <H2>Location</H2>    
-        <br/>
+        <H2>Location</H2>
+        <br />
         <h4>Hier findet man VR Center mit unserem Game</h4>
-        <Img src={SwissMap} alt="Schweizer Karte"/> 
+        <div className="google-map-code">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.3942795001726!2d8.490186651890326!3d47.384739479068415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900bcc0b75b2bf%3A0xb8c540464b5183c5!2sSAE%20Institute%20Z%C3%BCrich!5e0!3m2!1sde!2sfr!4v1653558742423!5m2!1sde!2sfr"
+            width="600"
+            height="450"
+            frameborder="0"
+            style={{ border: 0 }}
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+        <br />
       </Main>
     </>
   );
