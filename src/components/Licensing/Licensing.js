@@ -18,7 +18,7 @@ export const Licensing = () => {
   const Main = styled.div`
     width: 100vw;
     height: auto;
-    background: #4f4065;
+    background: #4F4065
     color: white;
     font-family: "Roboto", sans-serif;
     padding-left: 1rem;
@@ -26,16 +26,6 @@ export const Licensing = () => {
   `;
 
   // Font
-  const H3 = styled.h3`
-    padding-top: 2rem;
-    text-align: center;
-    color: white;
-    font-size: clamp(1.5rem, 2vw, 3rem);
-    font-weight: 500;
-    padding: 3rem 1.5rem 0 0;
-    text-align: left;
-    font-family: "Roboto", sans-serif;
-  `;
 
   const P = styled.p`
     padding-top: 2rem;

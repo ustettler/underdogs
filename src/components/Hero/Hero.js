@@ -30,7 +30,7 @@ export const Hero = () => {
     width: 720px;
     height: 234px;
     padding-top: 4rem;
-    font-family: 'Poppins';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -56,7 +56,7 @@ export const Hero = () => {
     box-shadow: 0px 10px 20px rgba(8, 12, 33, 0.15);
     border-radius: 30px;
     border-radius: 30px;
-    font-family: 'Poppins';
+    font-family: "Roboto", sans-serif;
     border:none;
     flex: none;
     order: 0;
