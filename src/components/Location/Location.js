@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import SwissMap from "../Location/img/ch-karte.png";
+//import SwissMap from "../Location/img/ch-karte.png";
 
 export const Location = () => {
   //CSS
