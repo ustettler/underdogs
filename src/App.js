@@ -7,6 +7,7 @@ import { Gallery } from "./components/Gallery/Gallery";
 import { Location } from "./components/Location/Location";
 import { Licensing } from "./components/Licensing/Licensing";
 import { About } from "./components/About/About";
+import { AboutGame } from "./components/AboutGame/AboutGame";
 import { Newsletter } from "./components/Newsletter/Newsletter";
 import { Contact } from "./components/Contact/Contact";
 import { News } from "./components/News/News";
@@ -21,6 +22,7 @@ function App() {
       <Hero />
       <Bestlist />
       <Gallery />
+      <AboutGame />
       <Location />
       <News />
       <Licensing />
