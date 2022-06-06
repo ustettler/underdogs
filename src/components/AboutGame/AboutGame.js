@@ -7,8 +7,6 @@ import { Parallax, Background } from "react-parallax";
 
 export const AboutGame = () => {
 
-
-
    //CSS
    const Main = styled.div`
    width: 100vw;
