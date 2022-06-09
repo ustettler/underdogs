@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useTable } from "react-table";
-import { Parallax, Background } from "react-parallax";
+import { Parallax} from "react-parallax";
 import IMG from './img/hg.jpg';
 
 import useData from "./useData";
