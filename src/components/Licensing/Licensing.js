@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { useTable } from "react-table";
+import { Parallax, Background } from "react-parallax";
+import IMG from './img/hg.jpg';
 
 import useData from "./useData";
 import useColumns from "../Licensing/useColumn";
@@ -56,7 +58,8 @@ export const Licensing = () => {
   //Renderer
   return (
     <>
-      <Main>
+      <Main>     
+        <Parallax bgImage={IMG} strength={500}>
         {/* Ab hier kommt das HTML rein */}
         <H2>Pricing</H2>
         <P>
@@ -103,6 +106,7 @@ export const Licensing = () => {
           </table>
         </div>
         <br />
+        </Parallax>
       </Main>
     </>
   );

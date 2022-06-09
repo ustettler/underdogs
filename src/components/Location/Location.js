@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 //import SwissMap from "../Location/img/ch-karte.png";
+import { Parallax, Background } from "react-parallax";
+import IMG from './img/hg.jpg';
 
 export const Location = () => {
   //CSS
@@ -90,6 +92,7 @@ export const Location = () => {
     <>
       <Main>
         {/* Ab hier kommt das HTML rein */}
+        <Parallax bgImage={IMG} strength={500}>
         <H2>Location</H2>
         <br />
         <P>Hier findet man VR Center mit unserem Game</P>
@@ -138,6 +141,7 @@ export const Location = () => {
           </div>
         </Maps>
         <br />
+        </Parallax>
       </Main>
     </>
   );

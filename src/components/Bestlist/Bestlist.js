@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import { Parallax, Background } from "react-parallax";
+import IMG from './img/hg.jpg';
 
 export const Bestlist = () => {
   //CSS
@@ -65,6 +67,7 @@ export const Bestlist = () => {
   return (
     <>
       <Main>
+      <Parallax bgImage={IMG} strength={500}>
         {/* Ab hier kommt das HTML rein */}
         <H2>Bestenliste</H2>
 
@@ -90,6 +93,7 @@ export const Bestlist = () => {
             </H3>
           </Section2>
         </List>
+        </Parallax>
       </Main>
     </>
   );
