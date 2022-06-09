@@ -26,7 +26,7 @@ function App() {
       <News />
       <Licensing />
       <About />
-      <Newsletter />©
+      <Newsletter />
       <Contact />
       <Bestlist />
       <Footer />
