@@ -18,7 +18,7 @@ export const Licensing = () => {
   const Main = styled.div`
     width: 100vw;
     height: auto;
-    background: #4F4065
+    background: #4F4065;
     color: white;
     font-family: "Poppins", sans-serif;
     padding-left: 1rem;
