@@ -20,18 +20,18 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <Bestlist />
-      <Gallery />
       <AboutGame />
+      <Gallery />
       <Location />
       <News />
       <Licensing />
       <About />
-      <Newsletter />
+      <Newsletter />©
       <Contact />
+      <Bestlist />
       <Footer />
     </div>
-  );
+  )
 }
 
 export default App;

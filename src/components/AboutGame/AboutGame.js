@@ -12,7 +12,7 @@ export const AboutGame = () => {
    width: 100vw;
    height: 20rem;
    color: white;
-   font-family: "Poppins, sans-serif;
+   font-family: "Poppins", sans-serif;
  `;
 
  // Font
