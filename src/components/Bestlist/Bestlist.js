@@ -71,21 +71,21 @@ export const Bestlist = () => {
         <List>
           <Section1>
             <H3>
-              1. Hans Meier, VR Basel <br />
-              2. Hans Meierhofer, VR Zürich <br />
-              3. Hans Meier, VR Basel
+              1. The Players, 23:30:30 Min <br />
+              2. The Players, 23:30:30 Min <br />
+              3. The Players, 23:30:30 Min
               <br />
-              4. Hans Meierhofer, VR Basel <br />
-              5. Hans Meier,VR Zürich <br />
+              4. The Players, 23:30:30 Min <br />
+              5. The Players, 23:30:30 Min <br />
             </H3>
           </Section1>
           <Section2>
             <H3>
-              6. Hans Meier, VR Zürich <br />
-              7. Hans Meier, VR Aarau <br />
-              8. Hans Meierhofer, VR Zürich <br />
-              9. Hans Meier, VR Basel <br />
-              10. Hans Meier, VR Zürich <br />
+              6. The Players, 23:30:30 Min <br />
+              7. The Players, 23:30:30 Min <br />
+              8. The Players, 23:30:30 Min<br />
+              9. The Players, 23:30:30 Min <br />
+              10. The Players, 23:30:30 Min <br />
               <br />
             </H3>
           </Section2>
