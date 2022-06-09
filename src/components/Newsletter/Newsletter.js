@@ -11,8 +11,6 @@ export const Newsletter = () => {
   return (
     <>
       {/* Ab hier kommt das HTML rein */}
-      
-
       <div class="newsletter_container">
 
         <div id="newsletter_box">
