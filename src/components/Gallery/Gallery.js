@@ -25,7 +25,7 @@ export const Gallery = () => {
   const Main = styled.div`
     width: 100vw;
     height: auto;
-    background: #87889c;
+    background: #525291;
     color: white;
     font-family: "Poppins", sans-serif;
   `;
