@@ -47,7 +47,7 @@ export const Footer = () => {
 
   const Text = styled.div`
     width: 165px;
-    font-family: Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;

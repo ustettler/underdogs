@@ -30,7 +30,7 @@ export const Hero = () => {
     width: 720px;
     height: 234px;
     padding-top: 4rem;
-    font-family: "Roboto", sans-serif;
+    font-family: "RPoppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;

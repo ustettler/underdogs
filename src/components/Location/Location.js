@@ -9,7 +9,7 @@ export const Location = () => {
     height: auto;
     background: #4f4065;
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
   `;
 
   const List = styled.div`
@@ -56,7 +56,7 @@ export const Location = () => {
     font-weight: 600;
     padding: 3rem 1.5rem 0 0;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
   `;
 
   const P = styled.p`
@@ -66,7 +66,7 @@ export const Location = () => {
     font-weight: 500;
     padding: 3rem 1.5rem 0 2rem;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
   `;
 
   const H3 = styled.h1`
@@ -76,7 +76,7 @@ export const Location = () => {
     font-weight: 500;
     padding: 3rem 1.5rem 0 2rem;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
 
 
   

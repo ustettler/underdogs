@@ -20,7 +20,7 @@ export const Licensing = () => {
     height: auto;
     background: #4F4065
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     padding-left: 1rem;
     padding-right: 1rem;
   `;
@@ -34,7 +34,7 @@ export const Licensing = () => {
     font-weight: 500;
     padding: 3rem 1.5rem 0 2rem;
     text-align: justify;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
   `;
 
   const H2 = styled.h2`
@@ -44,7 +44,7 @@ export const Licensing = () => {
     font-weight: 600;
     padding: 3rem 1.5rem 0 0;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
  
     
   

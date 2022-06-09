@@ -13,7 +13,7 @@ export const Navbar = () => {
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;

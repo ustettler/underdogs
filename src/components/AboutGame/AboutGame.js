@@ -12,7 +12,7 @@ export const AboutGame = () => {
    width: 100vw;
    height: 20rem;
    color: white;
-   font-family: "Roboto", sans-serif;
+   font-family: "Poppins, sans-serif;
  `;
 
  // Font
@@ -23,7 +23,7 @@ export const AboutGame = () => {
    font-weight: 600;
    padding: 3rem 1.5rem 0 2rem;
    text-align: center;
-   font-family: "Roboto", sans-serif;
+   font-family: "Poppins", sans-serif;
 
  
  @media only screen and (max-width : 600px) {

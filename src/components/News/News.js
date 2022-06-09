@@ -19,7 +19,7 @@ export const News = () => {
     height: auto;
     background: #87889c;
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     padding-left: 1rem;
     padding-right: 1rem;
   `;
@@ -33,7 +33,7 @@ export const News = () => {
     font-weight: 500;
     padding: 3rem 1.5rem 0 0;
     text-align: left;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
   `;
 
   const P = styled.p`
@@ -42,7 +42,7 @@ export const News = () => {
     font-weight: 500;
     padding: 3rem 1.5rem 0 2rem;
     text-align: justify;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
   `;
 
   const H2 = styled.h2`
@@ -52,7 +52,7 @@ export const News = () => {
     font-weight: 600;
     padding: 3rem 1.5rem 0 0;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
  
     
   

@@ -8,7 +8,7 @@ export const Bestlist = () => {
     height: auto;
     background: #4f4065;
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
   `;
 
   const List = styled.div`
@@ -41,7 +41,7 @@ export const Bestlist = () => {
     font-weight: 600;
     padding: 3rem 1.5rem 0 2rem;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
   `;
 
   const H3 = styled.h3`
@@ -52,7 +52,7 @@ export const Bestlist = () => {
     font-weight: 500;
     padding: 3rem 1.5rem 0 2rem;
     text-align:left;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
   
   // media queries
   
