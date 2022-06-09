@@ -1,6 +1,7 @@
 import React from "react";
 // Styled Components Import
 import styled from "styled-components";
+import LogoImage from "../Footer/img/image (1).png"
 
 // icon
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -18,6 +19,16 @@ export const Footer = () => {
     height: 159px;
     overflow-x: hidden;
     }
+}
+`;
+
+  const Logo = styled.a`
+  position: absolute;
+    right: 80%;
+    top: 4318px;
+    transform: rotate(-18.61deg);
+  @media (max-width: 768px) {
+  display: none;
 }
 `;
 
@@ -47,7 +58,7 @@ export const Footer = () => {
 
   const Text = styled.div`
     width: 165px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -64,6 +75,13 @@ export const Footer = () => {
           <A href="https://www.facebook.com/"> <YouTubeIcon></YouTubeIcon></A>
           <A href="https://www.facebook.com/"> <TwitterIcon></TwitterIcon></A>
         </Div>
+        <Logo href="">
+          <img src={LogoImage} alt="Logo"
+            style={{
+              width: "140px"
+            }}
+          />
+        </Logo>
         <Hr></Hr>
         <Wrapper>
           <Text>&copy;the-underdogs 2022</Text>

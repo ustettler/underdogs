@@ -13,7 +13,7 @@ export const Navbar = () => {
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -25,15 +25,16 @@ export const Navbar = () => {
     }
 
   @media (max-width: 768px) {
+      text-decoration: none;
       font-size: 0.9rem;
       display: flex;
       padding: 0 1rem;
-      margin: 10px;
+      margin: 8px;
     }
   `;
 
   const Nav = styled.div`
-    padding: 1rem 2rem;
+    // padding: 1rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,9 +43,11 @@ export const Navbar = () => {
     top: 0;
     left: 0;
     right: 0;
+    background-color: #1C1C65;
     
   @media (max-width: 768px) {
       background: #1C1C65;
+  
   }
 `;
 
@@ -75,7 +78,7 @@ export const Navbar = () => {
     span {
       height: 2px;
       width: 25px;
-      background: #7b7fda;
+      background: #87889d;
       margin-bottom: 4px;
       border-radius: 5px;
     }
