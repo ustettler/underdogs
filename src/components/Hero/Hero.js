@@ -6,6 +6,7 @@ import styled, { css } from 'styled-components';
 export const Hero = () => {
   // Css
   const Main = styled.div`
+  background: #525291;
 `;
   const Heero = styled.div`
   `;
@@ -30,7 +31,7 @@ export const Hero = () => {
     width: 720px;
     height: 234px;
     padding-top: 4rem;
-    font-family: "RPoppins", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
