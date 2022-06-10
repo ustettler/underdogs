@@ -1,5 +1,7 @@
 import React from "react";
 
+//background: #525291;
+
 export const About = () => {
   //Renderer
   return (
