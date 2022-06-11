@@ -24,11 +24,11 @@ function App() {
       <Gallery />
       <Location />
       <News />
-      <Licensing />
       <About />
       <Newsletter />
       <Contact />
       <Bestlist />
+      <Licensing />
       <Footer />
     </div>
   )

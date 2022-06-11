@@ -35,7 +35,12 @@ export const News = () => {
     padding: 3rem 1.5rem 0 0;
     text-align: left;
     font-family: "Poppins", sans-serif;
-  `;
+    margin: auto;
+    width: 60%;
+ 
+    @media only screen and (max-width : 600px) {
+      width: 90%;
+    `;
 
   const P = styled.p`
     color: white;
@@ -44,7 +49,12 @@ export const News = () => {
     padding: 3rem 1.5rem 0 2rem;
     text-align: justify;
     font-family: "Poppins", sans-serif;
-  `;
+    margin: auto;
+    width: 60%;
+ 
+    @media only screen and (max-width : 600px) {
+        width: 90%;
+      `;
 
   const H2 = styled.h2`
     padding-top: 2rem;
@@ -60,7 +70,8 @@ export const News = () => {
   @media only screen and (max-width : 600px) {
     main{
       height: 50vh;
-    } `;
+    } 
+    `;
 
   //Renderer
   return (
@@ -74,7 +85,7 @@ export const News = () => {
             "--swiper-navigation-color": "#fff",
             "--swiper-pagination-color": "#fff",
           }}
-          speed={600}
+          speed={200}
           parallax={true}
           pagination={{
             clickable: true,
@@ -86,20 +97,12 @@ export const News = () => {
           <div
             slot="container-start"
             className="parallax-bg"
-            style={{
-              "background-image":
-                "url(https://swiperjs.com/demos/images/nature-1.jpg)",
-            }}
             data-swiper-parallax="-23%"
           ></div>
           <SwiperSlide>
             <div
               className="title"
               data-swiper-parallax="-300"
-              style={{
-                "background-image":
-                  "url(https://swiperjs.com/demos/images/nature-12.jpg)",
-              }}
             >
               <H3> News 1</H3>
             </div>

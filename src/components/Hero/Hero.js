@@ -7,6 +7,8 @@ export const Hero = () => {
   // Css
   const Main = styled.div`
   background: #525291;
+  width: 100vw;
+  height: 100vh
 `;
   const Heero = styled.div`
   `;

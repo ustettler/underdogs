@@ -3,9 +3,6 @@ import styled from "styled-components";
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from 'react-image-gallery';
 
-
-
-
 export const Gallery = () => {
   const images = [
     {
@@ -21,6 +18,7 @@ export const Gallery = () => {
       thumbnail: 'https://picsum.photos/id/1019/250/150/',
     },
   ];
+  
   //CSS
   const Main = styled.div`
     width: 100vw;
@@ -51,7 +49,7 @@ export const Gallery = () => {
     <>
       <Main>
         {/* Ab hier kommt das HTML rein */}
-        <H2>Gallery</H2>
+        <H2>Gallerie</H2>
         <br />
         <ImageGallery items={images} />
         <br />
