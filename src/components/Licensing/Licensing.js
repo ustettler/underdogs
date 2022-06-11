@@ -59,7 +59,7 @@ export const Licensing = () => {
     <>
       <Main>     
         {/* Ab hier kommt das HTML rein */}
-        <H2>Pricing - B2B Bereich</H2>
+        <H2>Pricing - B2B</H2>
         <P>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
