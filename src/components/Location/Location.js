@@ -66,7 +66,7 @@ export const Location = () => {
     font-size: clamp(1rem, 1vw, 1.5rem);
     font-weight: 500;
     padding: 3rem 1.5rem 0 2rem;
-    text-align: center;
+    text-align: justify;
     font-family: "Poppins", sans-serif;
   `;
 
