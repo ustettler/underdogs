@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Parallax, Background } from "react-parallax";
-import IMG from "./img/hg.jpg";
+import IMG from "./img/party.jpeg";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 
 export const Bestlist = () => {
@@ -16,6 +16,7 @@ export const Bestlist = () => {
 
   const List = styled.div`
     width: 100vw;
+    margin-bottom: 2rem;
     color: white;
     display: flex;
     flex-direction: row;
@@ -37,25 +38,27 @@ export const Bestlist = () => {
   `;
 
   const Rank1 = styled.div`
-    color: white;
+    color: black;
     background: gold;
-    padding: 0.1rem;
+    padding: 0.5rem;
+    margin-bottom: 0.2rem;
     border-radius: 10px;
     border: solid 1px black;
   `;
 
   const Rank2 = styled.div`
-    color: white;
+    color: black;
     background: silver;
-    padding: 0.1rem;
+    padding: 0.5rem;
+    margin-bottom: 0.2rem;
     border-radius: 10px;
     border: solid 1px black;
   `;
 
   const Rank3 = styled.div`
-    color: white;
+    color: black;
     background: #cd7f32;
-    padding: 0.1rem;
+    padding: 0.5rem;
     border-radius: 10px;
     border: solid 1px black;
   `;
