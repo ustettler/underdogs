@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { Parallax, Background } from "react-parallax";
-import IMG from './img/hg.jpg';
+import IMG from "./img/hg.jpg";
+import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 
 export const Bestlist = () => {
   //CSS
@@ -33,6 +34,50 @@ export const Bestlist = () => {
 
   const Section2 = styled.div`
     color: white;
+  `;
+
+  const Rank1 = styled.div`
+    color: white;
+    background: gold;
+    padding: 0.1rem;
+    border-radius: 10px;
+    border: solid 1px black;
+  `;
+
+  const Rank2 = styled.div`
+    color: white;
+    background: silver;
+    padding: 0.1rem;
+    border-radius: 10px;
+    border: solid 1px black;
+  `;
+
+  const Rank3 = styled.div`
+    color: white;
+    background: #cd7f32;
+    padding: 0.1rem;
+    border-radius: 10px;
+    border: solid 1px black;
+  `;
+
+  const Ribbon = styled.div`
+    /* Position */
+    left: -64px;
+    position: absolute;
+    top: 32px;
+
+    /* Size */
+    height: 24px;
+    width: 206px;
+
+    /* Displayed diagonally */
+    transform: rotate(-45deg);
+
+    /* Background color */
+    background-color: rgba(0, 0, 0, 0.3);
+
+    /* Centerize the text content */
+    text-align: center;
   `;
 
   // Font
@@ -67,32 +112,58 @@ export const Bestlist = () => {
   return (
     <>
       <Main>
-      <Parallax bgImage={IMG} strength={500}>
-        {/* Ab hier kommt das HTML rein */}
-        <H2>Bestenliste</H2>
+        <Parallax bgImage={IMG} strength={500}>
+          {/* Ab hier kommt das HTML rein */}
+          <H2>Bestenliste</H2>
 
-        <List>
-          <Section1>
-            <H3>
-              1. The Players, 23:30:30 Min <br />
-              2. The Players, 23:30:30 Min <br />
-              3. The Players, 23:30:30 Min
-              <br />
-              4. The Players, 23:30:30 Min <br />
-              5. The Players, 23:30:30 Min <br />
-            </H3>
-          </Section1>
-          <Section2>
-            <H3>
-              6. The Players, 23:30:30 Min <br />
-              7. The Players, 23:30:30 Min <br />
-              8. The Players, 23:30:30 Min<br />
-              9. The Players, 23:30:30 Min <br />
-              10. The Players, 23:30:30 Min <br />
-              <br />
-            </H3>
-          </Section2>
-        </List>
+          <List>
+            <Ribbon>Bestenliste</Ribbon>
+            <Section1>
+              <H3>
+                <Rank1>
+                  <EmojiEventsIcon
+                    style={{
+                      paddingTop: ".2rem",
+                      marginRight: ".5rem",
+                    }}
+                  />
+                  1. The Players, 23:30:30 Min <br />
+                </Rank1>
+                <Rank2>
+                  <EmojiEventsIcon
+                    style={{
+                      paddingTop: ".2rem",
+                      marginRight: ".5rem",
+                    }}
+                  />
+                  2. The Players, 23:30:30 Min <br />
+                </Rank2>
+                <Rank3>
+                  <EmojiEventsIcon
+                    style={{
+                      paddingTop: ".2rem",
+                      marginRight: ".5rem",
+                    }}
+                  />
+                  3. The Players, 23:30:30 Min
+                  <br />
+                </Rank3>
+                4. The Players, 23:30:30 Min <br />
+                5. The Players, 23:30:30 Min <br />
+              </H3>
+            </Section1>
+            <Section2>
+              <H3>
+                6. The Players, 23:30:30 Min <br />
+                7. The Players, 23:30:30 Min <br />
+                8. The Players, 23:30:30 Min
+                <br />
+                9. The Players, 23:30:30 Min <br />
+                10. The Players, 23:30:30 Min <br />
+                <br />
+              </H3>
+            </Section2>
+          </List>
         </Parallax>
       </Main>
     </>
