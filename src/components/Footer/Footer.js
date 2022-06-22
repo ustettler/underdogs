@@ -23,10 +23,10 @@ export const Footer = () => {
 `;
 
   const Logo = styled.a`
-  position: absolute;
-    right: 80%;
-    top: 4318px;
-    transform: rotate(-18.61deg);
+  // position: absolute;
+  //   right: 80%;
+  //   transform: rotate(-18.61deg);
+  display: none;
   @media (max-width: 768px) {
   display: none;
 }
@@ -78,7 +78,7 @@ export const Footer = () => {
         <Logo href="">
           <img src={LogoImage} alt="Logo"
             style={{
-              width: "140px"
+              width: "140px",
             }}
           />
         </Logo>
