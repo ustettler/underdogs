@@ -35,7 +35,12 @@ export const News = () => {
     padding: 3rem 1.5rem 0 0;
     text-align: left;
     font-family: "Poppins", sans-serif;
-  `;
+    margin: auto;
+    width: 60%;
+ 
+    @media only screen and (max-width : 600px) {
+      width: 90%;
+    `;
 
   const P = styled.p`
     color: white;
@@ -44,7 +49,12 @@ export const News = () => {
     padding: 3rem 1.5rem 0 2rem;
     text-align: justify;
     font-family: "Poppins", sans-serif;
-  `;
+    margin: auto;
+    width: 60%;
+ 
+    @media only screen and (max-width : 600px) {
+        width: 90%;
+      `;
 
   const H2 = styled.h2`
     padding-top: 2rem;
@@ -60,7 +70,8 @@ export const News = () => {
   @media only screen and (max-width : 600px) {
     main{
       height: 50vh;
-    } `;
+    } 
+    `;
 
   //Renderer
   return (
@@ -74,7 +85,7 @@ export const News = () => {
             "--swiper-navigation-color": "#fff",
             "--swiper-pagination-color": "#fff",
           }}
-          speed={600}
+          speed={200}
           parallax={true}
           pagination={{
             clickable: true,
@@ -86,24 +97,15 @@ export const News = () => {
           <div
             slot="container-start"
             className="parallax-bg"
-            style={{
-              "background-image":
-                "url(https://swiperjs.com/demos/images/nature-1.jpg)",
-            }}
             data-swiper-parallax="-23%"
           ></div>
           <SwiperSlide>
             <div
               className="title"
               data-swiper-parallax="-300"
-              style={{
-                "background-image":
-                  "url(https://swiperjs.com/demos/images/nature-12.jpg)",
-              }}
             >
-              <H3> News 1</H3>
+              <H3>MVP bald fertig</H3>
             </div>
-            <br />
             <div
               className="text"
               data-swiper-parallax="-100"
@@ -112,13 +114,26 @@ export const News = () => {
               }}
             >
               <P>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-                laoreet justo vitae porttitor porttitor. Suspendisse in sem
-                justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh
-                euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-                ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-                tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+                Der MVP von unserem Game ist fertig. Wir sind jetzt noch am Testen und entwickeln das Game so
+                schnell wie möglich für dich fertig. Wir freuen uns euch das Spiel zu präsentieren.
+              </P>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="title" data-swiper-parallax="-300">
+              <H3>Game kommt bald!</H3>
+            </div>
+            <div
+              className="text"
+              data-swiper-parallax="-100"
+              style={{
+                textAlign: "left",
+              }}
+            >
+              <P>
+              Der MVP von unserem Game ist fertig. Wir sind jetzt noch am Testen und entwickeln das Game so
+                schnell wie möglich für dich fertig. Wir freuen uns euch das Spiel zu präsentieren.       Der MVP von unserem Game ist fertig. Wir sind jetzt noch am Testen und entwickeln das Game so
+                schnell wie möglich für dich fertig. Wir freuen uns euch das Spiel zu präsentieren.
               </P>
               <br />
               <br />
@@ -126,9 +141,8 @@ export const News = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="title" data-swiper-parallax="-300">
-              <H3> News 2</H3>
+              <H3>Unser Spiel wird richtig Nice!</H3>
             </div>
-            <br />
             <div
               className="text"
               data-swiper-parallax="-100"
@@ -137,38 +151,12 @@ export const News = () => {
               }}
             >
               <P>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-                laoreet justo vitae porttitor porttitor. Suspendisse in sem
-                justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh
-                euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-                ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-                tincidunt ut libero. Aenean feugiat non eros quis feugiat.
-              </P>
-              <br />
-              <br />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="title" data-swiper-parallax="-300">
-              <H3>News 3</H3>
-            </div>
-            <br />
-            <div
-              className="text"
-              data-swiper-parallax="-100"
-              style={{
-                textAlign: "left",
-              }}
-            >
-              <P>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-                laoreet justo vitae porttitor porttitor. Suspendisse in sem
-                justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh
-                euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-                ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-                tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+              Der MVP von unserem Game ist fertig. Wir sind jetzt noch am Testen und entwickeln das Game so
+                schnell wie möglich für dich fertig. Wir freuen uns euch das Spiel zu präsentieren.
+                Der MVP von unserem Game ist fertig. Wir sind jetzt noch am Testen und entwickeln das Game so
+                schnell wie möglich für dich fertig. Wir freuen uns euch das Spiel zu präsentieren.
+                Der MVP von unserem Game ist fertig. Wir sind jetzt noch am Testen und entwickeln das Game so
+                schnell wie möglich für dich fertig. Wir freuen uns euch das Spiel zu präsentieren.
               </P>
               <br />
               <br />

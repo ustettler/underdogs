@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useTable } from "react-table";
-import { Parallax} from "react-parallax";
-import IMG from './img/hg.jpg';
+
 
 import useData from "./useData";
 import useColumns from "../Licensing/useColumn";
@@ -21,6 +20,7 @@ export const Licensing = () => {
     width: 100vw;
     height: auto;
     color: white;
+    background-color: #525291;
     font-family: "Poppins", sans-serif;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -58,9 +58,8 @@ export const Licensing = () => {
   return (
     <>
       <Main>     
-        <Parallax bgImage={IMG} strength={500}>
         {/* Ab hier kommt das HTML rein */}
-        <H2>Pricing</H2>
+        <H2>Pricing - B2B</H2>
         <P>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
@@ -105,7 +104,6 @@ export const Licensing = () => {
           </table>
         </div>
         <br />
-        </Parallax>
       </Main>
     </>
   );

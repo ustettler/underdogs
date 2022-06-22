@@ -37,7 +37,7 @@ export const Footer = () => {
 `;
 
   const Div = styled.div`
-    padding: 4rem 24rem;
+    padding: 4rem 18rem;
     color: #fff;
   @media (max-width: 768px) {
     padding: 1rem 3rem;
