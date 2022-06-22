@@ -47,7 +47,7 @@ export const Navbar = () => {
     
   @media (max-width: 768px) {
       background: #1C1C65;
-  
+      padding: 1rem;
   }
 `;
 

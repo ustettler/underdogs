@@ -11,7 +11,9 @@ import { AboutGame } from "./components/AboutGame/AboutGame";
 import { Newsletter } from "./components/Newsletter/Newsletter";
 import { Contact } from "./components/Contact/Contact";
 import { News } from "./components/News/News";
+import BackToTopButton from './components/BackToTopButton/BackToTopButton';
 import { Footer } from "./components/Footer/Footer";
+
 
 
 function App() {
@@ -29,9 +31,10 @@ function App() {
       <Newsletter />
       <Contact />
       <Bestlist />
+      <BackToTopButton />
       <Footer />
     </div>
   )
-}
 
+}
 export default App;
