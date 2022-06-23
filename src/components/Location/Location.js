@@ -58,6 +58,8 @@ export const Location = () => {
     padding: 3rem 1.5rem 0 0;
     text-align: center;
     font-family: "Poppins", sans-serif;
+    text-shadow: 2px 0 0 black, -3px 0 0 black, 0 2px 0 black, 0 -2px 0 black,
+      1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
   `;
 
   const P = styled.p`
@@ -70,6 +72,8 @@ export const Location = () => {
     font-family: "Poppins", sans-serif;
     margin: auto;
     width: 80%;
+    text-shadow: 2px 0 0 black, -3px 0 0 black, 0 2px 0 black, 0 -2px 0 black,
+      1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
   `;
 
   const H3 = styled.h1`
@@ -80,6 +84,7 @@ export const Location = () => {
     padding: 3rem 1.5rem 0 2rem;
     text-align: center;
     font-family: "Poppins", sans-serif;
+    text-shadow: 2px 0 0 black, -3px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 
 
   
