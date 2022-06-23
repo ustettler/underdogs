@@ -92,6 +92,8 @@ export const Bestlist = () => {
     padding: 3rem 1.5rem 0 2rem;
     text-align: center;
     font-family: "Poppins", sans-serif;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black,
+      1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
   `;
 
   const H3 = styled.h3`
@@ -103,6 +105,25 @@ export const Bestlist = () => {
     padding: 3rem 1.5rem 0 2rem;
     text-align:left;
     font-family: "Poppins", sans-serif;
+    text-shadow: 2px 0 0 black, -3px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  
+  // media queries
+  
+  @media only screen and (max-width : 600px) {
+    main{
+      height: 50vh;
+    } `;
+
+  const H4 = styled.h3`
+    padding-top: 2rem;
+    text-align: justify; 
+    color: white;
+    font-size: clamp(1.5rem, 2vw, 3rem);
+    font-weight: 500;
+    padding: 3rem 1.5rem 0 2rem;
+    text-align:left;
+    font-family: "Poppins", sans-serif;
+
   
   // media queries
   
@@ -120,9 +141,9 @@ export const Bestlist = () => {
           <H2>Bestenliste</H2>
 
           <List>
-            <Ribbon>Bestenliste</Ribbon>
+            <Ribbon>TOP TEAMS</Ribbon>
             <Section1>
-              <H3>
+              <H4>
                 <Rank1>
                   <EmojiEventsIcon
                     style={{
@@ -139,7 +160,7 @@ export const Bestlist = () => {
                       marginRight: ".5rem",
                     }}
                   />
-                  2. The Players, 23:30:30 Min <br />
+                  2. The Players, 23:20:30 Min <br />
                 </Rank2>
                 <Rank3>
                   <EmojiEventsIcon
@@ -148,21 +169,19 @@ export const Bestlist = () => {
                       marginRight: ".5rem",
                     }}
                   />
-                  3. The Players, 23:30:30 Min
+                  3. The Players, 23:10:30 Min
                   <br />
                 </Rank3>
-                4. The Players, 23:30:30 Min <br />
-                5. The Players, 23:30:30 Min <br />
-              </H3>
+              </H4>
             </Section1>
             <Section2>
               <H3>
-                6. The Players, 23:30:30 Min <br />
-                7. The Players, 23:30:30 Min <br />
-                8. The Players, 23:30:30 Min
+                4. The Players, 23:09:30 Min <br />
+                5. The Players, 23:08:30 Min <br />
+                6. The Players, 23:07:30 Min
                 <br />
-                9. The Players, 23:30:30 Min <br />
-                10. The Players, 23:30:30 Min <br />
+                7. The Players, 23:06:30 Min <br />
+                8. The Players, 23:05:30 Min <br />
                 <br />
               </H3>
             </Section2>
