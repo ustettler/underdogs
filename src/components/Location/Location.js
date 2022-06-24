@@ -184,12 +184,7 @@ export const Location = () => {
                 tabindex="0"
               ></iframe>
             </div>
-            <P>
-              Falls das Spiel inn deinem lieblings VR-Center nicht erhältlich
-              ist, lass es uns via Kontaktformular wissen. <br />
-              Gerne schauen wir mit dem VR-Center, das sie uns in ihre Sortiment
-              aufnehmen.
-            </P>
+        
           </Maps>
           <br />
         </Parallax>
