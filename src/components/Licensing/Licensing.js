@@ -104,7 +104,7 @@ export const Licensing = () => {
           <AvTimerIcon/> &nbsp;&nbsp;Dauer: 30min<br/>
           <VideogameAssetIcon/> &nbsp;&nbsp;Gamegenre: Escape Room<br/>
           <CloudUploadIcon/>&nbsp;&nbsp;Gratis Deploy! (Octopus Deploy)<br />
-<CelebrationIcon/><b>&nbsp;&nbsp;Bereitschaft zufriede Kunden zu haben ;)</b><br />
+<CelebrationIcon/><b>&nbsp;&nbsp;Bereitschaft zufriedene Kunden zu haben ;)</b><br />
           </small>
           </H3>
         </Requirement>
