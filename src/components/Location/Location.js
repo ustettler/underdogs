@@ -72,8 +72,8 @@ export const Location = () => {
     font-family: "Poppins", sans-serif;
     margin: auto;
     width: 80%;
-    text-shadow: 2px 0 0 black, -3px 0 0 black, 0 2px 0 black, 0 -2px 0 black,
-      1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    text-shadow: 0px 0 0 black, -0px 0 0 black, 0 0px 0 black, 0 1px 0 black,
+      0px 0px black, -0px -1px 0 black, 1px -0px 0 black, -0px 0px 0 black;
   `;
 
   const H3 = styled.h1`
