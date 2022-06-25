@@ -96,7 +96,7 @@ export const Licensing = () => {
           </P>
           <Requirement>
           <H3> 
-          <strong>Folgendes sind die Voraussetzungen:</strong>
+          <strong>Folgendes sind die Eckdaten:</strong>
           <br/>
           <small>
           <LinearScaleIcon/>&nbsp;&nbsp;10 x 10m Spielfläche<br/>
