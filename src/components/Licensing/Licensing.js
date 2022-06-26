@@ -8,10 +8,12 @@ import AvTimerIcon from '@mui/icons-material/AvTimer';
 import VideogameAssetIcon from '@mui/icons-material/VideogameAsset';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import CelebrationIcon from '@mui/icons-material/Celebration';
+import PersonIcon from '@mui/icons-material/Person';
 
 
 import useData from "./useData";
 import useColumns from "../Licensing/useColumn";
+import { height } from "@mui/system";
 
 //import makeData from "./makeData";
 
@@ -40,12 +42,12 @@ export const Licensing = () => {
 
   const Requirement = styled.div`
     
-    width: 50vw;
+    width: 40vw;
     border: 3px solid white;
     border-radius: 10px;
     margin: 2rem 0 2rem 0;
 
-    @media only screen and (max-width : 600px) {
+    @media only screen and (max-width : 700px) {
         width: 90vw;
       } `;
 
@@ -58,7 +60,7 @@ export const Licensing = () => {
     font-size: clamp(1rem, 1vw, 1.5rem);
     font-weight: 500;
     padding: 3rem 1.5rem 0 2rem;
-    text-align: justify;
+    text-align: left;
     font-family: "Poppins", sans-serif;
   `;
 
@@ -91,21 +93,34 @@ export const Licensing = () => {
         {/* Ab hier kommt das HTML rein */}
         <H2>Lizenzierung - B2B</H2>
         <P>
-          Falls du eine VR-Center hast und unser Spiel gerne in dein Angebot aufnehmen möchtest, nehme gerne via 
-          Kontaktformular, mit uns kontakt auf.
+          Falls du ein VR-Center hast und unser Spiel gerne in dein Angebot aufnehmen  möchtest, <br/>nehme via 
+          Kontaktformular mit uns Kontakt auf.
           </P>
           <Requirement>
           <H3> 
-          <strong>Folgendes sind die Eckdaten:</strong>
+          <strong>Die Eckdaten:</strong>
           <br/>
           <small>
-          <LinearScaleIcon/>&nbsp;&nbsp;10 x 10m Spielfläche<br/>
- <PeopleIcon/>&nbsp;&nbsp; 2 - 5 Player<br/>
-          <AvTimerIcon/> &nbsp;&nbsp;Dauer: 30min<br/>
-          <VideogameAssetIcon/> &nbsp;&nbsp;Gamegenre: Escape Room<br/>
-          <CloudUploadIcon/>&nbsp;&nbsp;Gratis Deploy! (Octopus Deploy)<br />
-<CelebrationIcon/><b>&nbsp;&nbsp;Bereitschaft zufriedene Kunden zu haben ;)</b><br />
-          </small>
+          <LinearScaleIcon  style={{
+              paddingTop: ".5rem",
+            }}/>&nbsp;10 x 10m Spielfläche<br/>
+ <PeopleIcon style={{
+              paddingTop: ".5rem",
+            }}/>&nbsp; 2 - 5 Player<br/>
+          <AvTimerIcon  style={{
+              paddingTop: ".5rem",
+            }}/> &nbsp;Dauer: 30min<br/>
+          <VideogameAssetIcon  style={{
+              paddingTop: ".5rem",
+            }}/> &nbsp;Gamegenre: Escape Room<br/>
+          <PersonIcon  style={{
+              paddingTop: ".5rem",
+            }}/><b>&nbsp;Standalone VR-Brillen</b><br />
+          <CloudUploadIcon  style={{
+              paddingTop: ".5rem",
+            }}/>&nbsp;Gratis Deploy! (Octopus Deploy)<br />
+            </small>
+<CelebrationIcon /><b>&nbsp;Zufriedene Kunden ;)</b><br />
           </H3>
         </Requirement>
       

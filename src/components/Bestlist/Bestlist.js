@@ -38,12 +38,14 @@ export const Bestlist = () => {
   `;
 
   const Rank1 = styled.div`
+  margin-top: 2rem;
     color: black;
     background: gold;
     padding: 0.5rem;
     margin-bottom: 0.2rem;
     border-radius: 10px;
     border: solid 1px black;
+    font-size: 1.3rem;
   `;
 
   const Rank2 = styled.div`
@@ -53,6 +55,7 @@ export const Bestlist = () => {
     margin-bottom: 0.2rem;
     border-radius: 10px;
     border: solid 1px black;
+    font-size: 1.3rem;
   `;
 
   const Rank3 = styled.div`
@@ -61,6 +64,7 @@ export const Bestlist = () => {
     padding: 0.5rem;
     border-radius: 10px;
     border: solid 1px black;
+    font-size: 1.3rem;
   `;
 
   const Ribbon = styled.div`
@@ -160,7 +164,7 @@ export const Bestlist = () => {
                       marginRight: ".5rem",
                     }}
                   />
-                  2. The Players, 23:20:30 Min <br />
+                  2. VRGamers, 23:20:30 Min <br />
                 </Rank2>
                 <Rank3>
                   <EmojiEventsIcon
@@ -169,19 +173,19 @@ export const Bestlist = () => {
                       marginRight: ".5rem",
                     }}
                   />
-                  3. The Players, 23:10:30 Min
+                  3. Top Team, 23:10:30 Min
                   <br />
                 </Rank3>
               </H4>
             </Section1>
             <Section2>
               <H3>
-                4. The Players, 23:09:30 Min <br />
-                5. The Players, 23:08:30 Min <br />
-                6. The Players, 23:07:30 Min
+                4. The Fame, 23:09:30 Min <br />
+                5. ZüriGamers, 23:08:30 Min <br />
+                6. The Bebbis, 23:07:30 Min
                 <br />
-                7. The Players, 23:06:30 Min <br />
-                8. The Players, 23:05:30 Min <br />
+                7. The Waggis, 23:06:30 Min <br />
+                8. FlexerBoys, 23:05:30 Min <br />
                 <br />
               </H3>
             </Section2>
