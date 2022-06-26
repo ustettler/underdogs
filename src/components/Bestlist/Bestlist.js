@@ -25,7 +25,7 @@ export const Bestlist = () => {
   `;
 
   const Section1 = styled.div`
-  display:flex;ß
+  display:flex;
     color: white;
     justify-content: flex-start;
     align-content: flex-start;
@@ -38,7 +38,7 @@ export const Bestlist = () => {
   `;
 
   const Rank1 = styled.div`
-  margin-top: 2rem;
+  margin-top: 1rem;
     color: black;
     background: gold;
     padding: 0.5rem;
@@ -64,7 +64,7 @@ export const Bestlist = () => {
     padding: 0.5rem;
     border-radius: 10px;
     border: solid 1px black;
-    font-size: 1.3rem;
+    font-size: 1.3rem
   `;
 
   const Ribbon = styled.div`
@@ -104,7 +104,7 @@ export const Bestlist = () => {
     padding-top: 2rem;
     text-align: justify; 
     color: white;
-    font-size: clamp(1.5rem, 2vw, 3rem);
+    font-size: clamp(1.5rem, 1vw, 1.5rem);
     font-weight: 500;
     padding: 3rem 1.5rem 0 2rem;
     text-align:left;
@@ -155,7 +155,7 @@ export const Bestlist = () => {
                       marginRight: ".5rem",
                     }}
                   />
-                  1. The Players, 23:30:30 Min <br />
+                  1. The Players, 19:30:30 Min <br />
                 </Rank1>
                 <Rank2>
                   <EmojiEventsIcon
@@ -164,7 +164,7 @@ export const Bestlist = () => {
                       marginRight: ".5rem",
                     }}
                   />
-                  2. VRGamers, 23:20:30 Min <br />
+                  2. VRGamers, 20:20:30 Min <br />
                 </Rank2>
                 <Rank3>
                   <EmojiEventsIcon
@@ -173,19 +173,19 @@ export const Bestlist = () => {
                       marginRight: ".5rem",
                     }}
                   />
-                  3. Top Team, 23:10:30 Min
+                  3. Top Team, 21:10:30 Min
                   <br />
                 </Rank3>
               </H4>
             </Section1>
             <Section2>
               <H3>
-                4. The Fame, 23:09:30 Min <br />
+                4. The Fame, 22:09:30 Min <br />
                 5. ZüriGamers, 23:08:30 Min <br />
-                6. The Bebbis, 23:07:30 Min
+                6. The Bebbis, 24:07:30 Min
                 <br />
-                7. The Waggis, 23:06:30 Min <br />
-                8. FlexerBoys, 23:05:30 Min <br />
+                7. The Waggis, 25:06:30 Min <br />
+                8. FlexerBoys, 26:05:30 Min <br />
                 <br />
               </H3>
             </Section2>

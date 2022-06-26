@@ -94,11 +94,11 @@ export const Licensing = () => {
         <H2>Lizenzierung - B2B</H2>
         <P>
           Falls du ein VR-Center hast und unser Spiel gerne in dein Angebot aufnehmen  möchtest, <br/>nehme via 
-          Kontaktformular mit uns Kontakt auf.
+          Kontaktformular mit uns Kontakt auf oder Rufe uns an.
           </P>
           <Requirement>
           <H3> 
-          <strong>Die Eckdaten:</strong>
+          <strong>ECKDATEN</strong>
           <br/>
           <small>
           <LinearScaleIcon  style={{
@@ -115,12 +115,14 @@ export const Licensing = () => {
             }}/> &nbsp;Gamegenre: Escape Room<br/>
           <PersonIcon  style={{
               paddingTop: ".5rem",
-            }}/><b>&nbsp;Standalone VR-Brillen</b><br />
+            }}/>&nbsp;Standalone VR-Brillen<br />
           <CloudUploadIcon  style={{
               paddingTop: ".5rem",
             }}/>&nbsp;Gratis Deploy! (Octopus Deploy)<br />
             </small>
-<CelebrationIcon /><b>&nbsp;Zufriedene Kunden ;)</b><br />
+<CelebrationIcon style={{
+              marginTop: "1rem",
+            }}/><b >&nbsp;Zufriedene Kunden ;)</b><br />
           </H3>
         </Requirement>
       
