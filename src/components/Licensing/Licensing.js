@@ -112,7 +112,7 @@ export const Licensing = () => {
             }}/> &nbsp;Dauer: 30min<br/>
           <VideogameAssetIcon  style={{
               paddingTop: ".5rem",
-            }}/> &nbsp;Gamegenre: Escape Room<br/>
+            }}/> &nbsp;Game Genre: Escape Room<br/>
           <PersonIcon  style={{
               paddingTop: ".5rem",
             }}/>&nbsp;Standalone VR-Brillen<br />
