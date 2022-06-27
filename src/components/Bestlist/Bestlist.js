@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Parallax, Background } from "react-parallax";
-import IMG from "./img/party.jpeg";
+import IMG from "./img/videoweb.gif";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 
 export const Bestlist = () => {
