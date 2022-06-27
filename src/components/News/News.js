@@ -157,10 +157,7 @@ export const News = () => {
                 fertig. Wir freuen uns euch das Spiel zu präsentieren. Der MVP
                 von unserem Game ist fertig. Wir sind jetzt noch am Testen und
                 entwickeln das Game so schnell wie möglich für dich fertig. Wir
-                freuen uns euch das Spiel zu präsentieren. Der MVP von unserem
-                Game ist fertig. Wir sind jetzt noch am Testen und entwickeln
-                das Game so schnell wie möglich für dich fertig. Wir freuen uns
-                euch das Spiel zu präsentieren.
+                freuen uns euch das Spiel zu präsentieren. 
               </P>
               <br />
               <br />
