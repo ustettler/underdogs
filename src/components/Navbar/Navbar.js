@@ -99,8 +99,8 @@ export const Navbar = () => {
       </Hamburger>
       <Menu isOpen={isOpen}>
         <MenuLink href="">Home</MenuLink>
-        <MenuLink href="">Gallery</MenuLink>
-        <MenuLink href="">Location</MenuLink>
+        <MenuLink href="">Gallerie</MenuLink>
+        <MenuLink href="">Ort</MenuLink>
         <MenuLink href="">News</MenuLink>
         <Logo href="">
           <img src={LogoImage} alt="Logo"
@@ -112,7 +112,7 @@ export const Navbar = () => {
             }}
           />
         </Logo>
-        <MenuLink href="">About</MenuLink>
+        <MenuLink href="">Über uns</MenuLink>
         <MenuLink href="">Newsletter</MenuLink>
         <MenuLink href="">Kontakt</MenuLink>
         <MenuLink href="">Bestenliste</MenuLink>

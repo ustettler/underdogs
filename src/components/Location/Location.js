@@ -106,9 +106,9 @@ export const Location = () => {
           <Maps>
             <div className="google-map-code">
               <H3>
-                VR-City Zürich <br />{" "}
+                SAE Zürich <br />{" "}
                 <a
-                  href={"https://vrcity.ch"}
+                  href={"http://www.sae.edu/che/"}
                   style={{
                     textDecoration: "none",
                     color: "#ffffff",
@@ -120,7 +120,7 @@ export const Location = () => {
                 </a>
               </H3>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.3462088348188!2d8.500996551301704!3d47.385677511103935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900ba6caf500a3%3A0x14707ccf270e57c0!2sVR%20City%20-%20Virtual%20Reality%20Center%20%26%20Escape%20Room!5e0!3m2!1sde!2sfr!4v1654946221559!5m2!1sde!2sfr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.3940962684296!2d8.488158889559696!3d47.38474305460733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900bcc0b75b2bf%3A0xb8c540464b5183c5!2sSAE%20Institute%20Z%C3%BCrich!5e0!3m2!1sde!2sfr!4v1656353049756!5m2!1sde!2sfr"
                 width="300"
                 height="225"
                 frameborder="0"
@@ -133,9 +133,9 @@ export const Location = () => {
             <br />
             <div className="google-map-code">
               <H3>
-                VR-Center Basel <br />{" "}
+                SAE Zürich <br />{" "}
                 <a
-                  href={"https://vr-centerbasel.ch"}
+                  href={"http://www.sae.edu/che/"}
                   style={{
                     textDecoration: "none",
                     color: "#ffffff",
@@ -147,7 +147,7 @@ export const Location = () => {
                 </a>
               </H3>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2693.2293040287764!2d7.618790251306044!3d47.54386570020041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791b9b3d36ba373%3A0x283f1b73e6975592!2sVirtual%20Reality%20VR%20Center%2C%20Escape%20Room%20und%20Laser%20Tag!5e0!3m2!1sde!2sfr!4v1654946508907!5m2!1sde!2sfr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.3940962684296!2d8.488158889559696!3d47.38474305460733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900bcc0b75b2bf%3A0xb8c540464b5183c5!2sSAE%20Institute%20Z%C3%BCrich!5e0!3m2!1sde!2sfr!4v1656353049756!5m2!1sde!2sfr"
                 width="300"
                 height="225"
                 frameborder="0"
@@ -160,9 +160,9 @@ export const Location = () => {
             <br />
             <div className="google-map-code">
               <H3>
-                Fusion Arena Bern <br />{" "}
+                SAE Zürich <br />{" "}
                 <a
-                  href={"https://bern.fusionarena.ch/"}
+                  href={"http://www.sae.edu/che/"}
                   style={{
                     textDecoration: "none",
                     color: "#ffffff",
@@ -174,7 +174,7 @@ export const Location = () => {
                 </a>{" "}
               </H3>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2722.9457578815377!2d7.4617723512901515!3d46.962755740121594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e39125f48b48d%3A0xe53e59fd338b3437!2sFusion%20Arena%20Virtual%20Reality%20Center%20Bern!5e0!3m2!1sde!2sfr!4v1654946580801!5m2!1sde!2sfr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.3940962684296!2d8.488158889559696!3d47.38474305460733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900bcc0b75b2bf%3A0xb8c540464b5183c5!2sSAE%20Institute%20Z%C3%BCrich!5e0!3m2!1sde!2sfr!4v1656353049756!5m2!1sde!2sfr"
                 width="300"
                 height="225"
                 frameborder="0"
@@ -185,6 +185,33 @@ export const Location = () => {
               ></iframe>
             </div>
         
+            <br />
+            <div className="google-map-code">
+              <H3>
+                SAE Zürich <br />{" "}
+                <a
+                  href={"http://www.sae.edu/che/"}
+                  style={{
+                    textDecoration: "none",
+                    color: "#ffffff",
+                    fontSize: "1rem",
+                  }}
+                  target="_blank"
+                >
+                  Website
+                </a>{" "}
+              </H3>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.3940962684296!2d8.488158889559696!3d47.38474305460733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900bcc0b75b2bf%3A0xb8c540464b5183c5!2sSAE%20Institute%20Z%C3%BCrich!5e0!3m2!1sde!2sfr!4v1656353049756!5m2!1sde!2sfr"
+                width="300"
+                height="225"
+                frameborder="0"
+                style={{ border: 0, margin: 20 }}
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
+            </div>
           </Maps>
           <br />
         </Parallax>

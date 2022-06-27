@@ -118,7 +118,7 @@ export const Licensing = () => {
             }}/>&nbsp;Standalone VR-Brillen<br />
           <CloudUploadIcon  style={{
               paddingTop: ".5rem",
-            }}/>&nbsp;Gratis Deploy! (Octopus Deploy)<br />
+            }}/>&nbsp;Gratis Deploy! <br />
             </small>
 <CelebrationIcon style={{
               marginTop: "1rem",
