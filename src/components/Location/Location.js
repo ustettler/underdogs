@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 //import SwissMap from "../Location/img/ch-karte.png";
 import { Parallax, Background } from "react-parallax";
-import IMG from "./img/web.gif";
+import IMG from "../Bestlist/img/videoweb.gifit";
 
 export const Location = () => {
   //CSS
