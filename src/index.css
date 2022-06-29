@@ -54,7 +54,7 @@ text-align: right;
 @media only screen and (max-width : 600px) {
   
   #newsletter_box h2{
-    color: red !important; 
+    color: white !important; 
     text-align: center;
   }
 
