@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Parallax, Background } from "react-parallax";
-import IMG from "./img/party.jpeg";
+import IMG from "./img/videoweb.gif";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 
 export const Bestlist = () => {
@@ -25,7 +25,7 @@ export const Bestlist = () => {
   `;
 
   const Section1 = styled.div`
-  display:flex;ß
+  display:flex;
     color: white;
     justify-content: flex-start;
     align-content: flex-start;
@@ -38,12 +38,14 @@ export const Bestlist = () => {
   `;
 
   const Rank1 = styled.div`
+  margin-top: 1rem;
     color: black;
     background: gold;
     padding: 0.5rem;
     margin-bottom: 0.2rem;
     border-radius: 10px;
     border: solid 1px black;
+    font-size: 1.3rem;
   `;
 
   const Rank2 = styled.div`
@@ -53,6 +55,7 @@ export const Bestlist = () => {
     margin-bottom: 0.2rem;
     border-radius: 10px;
     border: solid 1px black;
+    font-size: 1.3rem;
   `;
 
   const Rank3 = styled.div`
@@ -61,6 +64,7 @@ export const Bestlist = () => {
     padding: 0.5rem;
     border-radius: 10px;
     border: solid 1px black;
+    font-size: 1.3rem
   `;
 
   const Ribbon = styled.div`
@@ -92,9 +96,29 @@ export const Bestlist = () => {
     padding: 3rem 1.5rem 0 2rem;
     text-align: center;
     font-family: "Poppins", sans-serif;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black,
+      1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
   `;
 
   const H3 = styled.h3`
+    padding-top: 2rem;
+    text-align: justify; 
+    color: white;
+    font-size: clamp(1.5rem, 1vw, 1.5rem);
+    font-weight: 500;
+    padding: 3rem 1.5rem 0 2rem;
+    text-align:left;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 2px 0 0 black, -3px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  
+  // media queries
+  
+  @media only screen and (max-width : 600px) {
+    main{
+      height: 50vh;
+    } `;
+
+  const H4 = styled.h3`
     padding-top: 2rem;
     text-align: justify; 
     color: white;
@@ -103,6 +127,7 @@ export const Bestlist = () => {
     padding: 3rem 1.5rem 0 2rem;
     text-align:left;
     font-family: "Poppins", sans-serif;
+
   
   // media queries
   
@@ -120,9 +145,9 @@ export const Bestlist = () => {
           <H2>Bestenliste</H2>
 
           <List>
-            <Ribbon>Bestenliste</Ribbon>
+            <Ribbon>TOP TEAMS</Ribbon>
             <Section1>
-              <H3>
+              <H4>
                 <Rank1>
                   <EmojiEventsIcon
                     style={{
@@ -130,7 +155,7 @@ export const Bestlist = () => {
                       marginRight: ".5rem",
                     }}
                   />
-                  1. The Players, 23:30:30 Min <br />
+                  1. The Players, 19:30:30 Min <br />
                 </Rank1>
                 <Rank2>
                   <EmojiEventsIcon
@@ -139,7 +164,7 @@ export const Bestlist = () => {
                       marginRight: ".5rem",
                     }}
                   />
-                  2. The Players, 23:30:30 Min <br />
+                  2. VRGamers, 20:20:30 Min <br />
                 </Rank2>
                 <Rank3>
                   <EmojiEventsIcon
@@ -148,21 +173,19 @@ export const Bestlist = () => {
                       marginRight: ".5rem",
                     }}
                   />
-                  3. The Players, 23:30:30 Min
+                  3. Top Team, 21:10:30 Min
                   <br />
                 </Rank3>
-                4. The Players, 23:30:30 Min <br />
-                5. The Players, 23:30:30 Min <br />
-              </H3>
+              </H4>
             </Section1>
             <Section2>
               <H3>
-                6. The Players, 23:30:30 Min <br />
-                7. The Players, 23:30:30 Min <br />
-                8. The Players, 23:30:30 Min
+                4. The Fame, 22:09:30 Min <br />
+                5. ZüriGamers, 23:08:30 Min <br />
+                6. The Bebbis, 24:07:30 Min
                 <br />
-                9. The Players, 23:30:30 Min <br />
-                10. The Players, 23:30:30 Min <br />
+                7. The Waggis, 25:06:30 Min <br />
+                8. FlexerBoys, 26:05:30 Min <br />
                 <br />
               </H3>
             </Section2>

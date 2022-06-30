@@ -1,6 +1,7 @@
 // Import ähnmlich wie CDN
 import React from "react";
-import { Grid, TextField, Button, Card, CardContent, Typography } from '@mui/material';
+import { Grid, TextField, Button, Card, CardContent, Typography, Select, MenuItem } from '@mui/material';
+import doggy from "../Contact/img/doggy.png";
 
 // Beginn vom Dokument am anfang kommt die Logik rein
 
@@ -10,39 +11,66 @@ export const Contact = () => {
     <>
       {/* Ab hier kommt das HTML rein */}
       <div className="contact"> 
-      <Typography gutterBottom variant="h3" align="center">
-        Contact
-       </Typography>
+      <h2>
+        Kontakt
+       </h2>
+       {/* <Typography gutterBottom variant="h3" align="center">
+        Kontakt
+       </Typography> */}
       <Grid>
         <Card style={{ maxWidth: 450, padding: "20px 5px", margin: "0 auto" }}>
           <CardContent>
             <Typography gutterBottom variant="h5">
-              Get in touch with us
+              Haben Sie Fragen?
           </Typography> 
             <Typography variant="body2" color="textSecondary" component="p" gutterBottom>
-              Fill up the form and our team will get back to you ASAP.
+              Fülle das Formular aus und das Team tretet mit dir in Kontakt ASAP.
           </Typography> 
             <form>
               <Grid container spacing={1}>
+              <img
+              src={doggy}
+              alt="Our Team"
+              style={{
+                width: "100%",
+                height: "auto",
+                backgroundSize: "cover",
+              }}
+            />
+                <Grid item xs={12}>
+                    <Select
+                      labelId="demo-simple-select-label"
+                      id="demo-simple-select"
+                      defaultValue={10}
+                      /* value={age} */
+                      label="Age"
+                      /* onChange={handleChange} */
+                    >
+                      <MenuItem value={10}>Kontaktanfrage</MenuItem>
+                      <MenuItem value={20}>Supportanfrage</MenuItem>
+                      <MenuItem value={30}>Verkaufsanfrage</MenuItem>
+                    </Select>
+                </Grid>
                 <Grid xs={12} sm={6} item>
-                  <TextField placeholder="Enter first name" label="First Name" variant="outlined" fullWidth required />
+                  <TextField placeholder="Vorname eingeben.." label="Vorname" variant="outlined" fullWidth required />
                 </Grid>
                 <Grid xs={12} sm={6} item>
-                  <TextField placeholder="Enter last name" label="Last Name" variant="outlined" fullWidth required />
+                  <TextField placeholder="Nachnamen eingeben.." label="Nachname" variant="outlined" fullWidth required />
                 </Grid>
                 <Grid item xs={12}>
-                  <TextField type="email" placeholder="Enter email" label="Email" variant="outlined" fullWidth required />
+                  <TextField type="email" placeholder="E-Mail eingeben.." label="E-Mail" variant="outlined" fullWidth required />
                 </Grid>
                 <Grid item xs={12}>
-                  <TextField type="number" placeholder="Enter phone number" label="Phone" variant="outlined" fullWidth required />
+                  <TextField type="number" placeholder="Telefonnummer eingeben" label="Telefonnummer" variant="outlined" fullWidth required />
                 </Grid>
                 <Grid item xs={12}>
-                  <TextField label="Message" multiline rows={4} placeholder="Type your message here" variant="outlined" fullWidth required />
+                  <TextField label="Nachricht" multiline rows={4} placeholder="Nachricht eingeben" variant="outlined" fullWidth required />
                 </Grid>
                 <Grid item xs={12}>
-                  <Button type="submit" variant="contained" color="primary" fullWidth>Submit</Button>
+                  <Button type="submit" variant="contained" color="primary" fullWidth>Senden</Button>
                 </Grid>
 
+                
               </Grid>
             </form>
           </CardContent>

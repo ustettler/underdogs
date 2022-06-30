@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -32,7 +31,7 @@ export const News = () => {
     color: white;
     font-size: clamp(1.5rem, 2vw, 3rem);
     font-weight: 500;
-    padding: 3rem 1.5rem 0 0;
+    padding: 3rem 1.5rem 0 2rem;
     text-align: left;
     font-family: "Poppins", sans-serif;
     margin: auto;
@@ -46,11 +45,12 @@ export const News = () => {
     color: white;
     font-size: clamp(1rem, 1vw, 1.5rem);
     font-weight: 500;
-    padding: 3rem 1.5rem 0 2rem;
+    padding: 2em 1.5rem 0 2rem;
     text-align: justify;
     font-family: "Poppins", sans-serif;
     margin: auto;
     width: 60%;
+
  
     @media only screen and (max-width : 600px) {
         width: 90%;
@@ -100,10 +100,7 @@ export const News = () => {
             data-swiper-parallax="-23%"
           ></div>
           <SwiperSlide>
-            <div
-              className="title"
-              data-swiper-parallax="-300"
-            >
+            <div className="title" data-swiper-parallax="-300">
               <H3>MVP bald fertig</H3>
             </div>
             <div
@@ -114,8 +111,9 @@ export const News = () => {
               }}
             >
               <P>
-                Der MVP von unserem Game ist fertig. Wir sind jetzt noch am Testen und entwickeln das Game so
-                schnell wie möglich für dich fertig. Wir freuen uns euch das Spiel zu präsentieren.
+                Der MVP von unserem Game ist fertig. Wir sind jetzt noch am
+                Testen und entwickeln das Game so schnell wie möglich für dich
+                fertig. Wir freuen uns euch das Spiel zu präsentieren.
               </P>
             </div>
           </SwiperSlide>
@@ -131,9 +129,12 @@ export const News = () => {
               }}
             >
               <P>
-              Der MVP von unserem Game ist fertig. Wir sind jetzt noch am Testen und entwickeln das Game so
-                schnell wie möglich für dich fertig. Wir freuen uns euch das Spiel zu präsentieren.       Der MVP von unserem Game ist fertig. Wir sind jetzt noch am Testen und entwickeln das Game so
-                schnell wie möglich für dich fertig. Wir freuen uns euch das Spiel zu präsentieren.
+                Der MVP von unserem Game ist fertig. Wir sind jetzt noch am
+                Testen und entwickeln das Game so schnell wie möglich für dich
+                fertig. Wir freuen uns euch das Spiel zu präsentieren. Der MVP
+                von unserem Game ist fertig. Wir sind jetzt noch am Testen und
+                entwickeln das Game so schnell wie möglich für dich fertig. Wir
+                freuen uns euch das Spiel zu präsentieren.
               </P>
               <br />
               <br />
@@ -151,12 +152,12 @@ export const News = () => {
               }}
             >
               <P>
-              Der MVP von unserem Game ist fertig. Wir sind jetzt noch am Testen und entwickeln das Game so
-                schnell wie möglich für dich fertig. Wir freuen uns euch das Spiel zu präsentieren.
-                Der MVP von unserem Game ist fertig. Wir sind jetzt noch am Testen und entwickeln das Game so
-                schnell wie möglich für dich fertig. Wir freuen uns euch das Spiel zu präsentieren.
-                Der MVP von unserem Game ist fertig. Wir sind jetzt noch am Testen und entwickeln das Game so
-                schnell wie möglich für dich fertig. Wir freuen uns euch das Spiel zu präsentieren.
+                Der MVP von unserem Game ist fertig. Wir sind jetzt noch am
+                Testen und entwickeln das Game so schnell wie möglich für dich
+                fertig. Wir freuen uns euch das Spiel zu präsentieren. Der MVP
+                von unserem Game ist fertig. Wir sind jetzt noch am Testen und
+                entwickeln das Game so schnell wie möglich für dich fertig. Wir
+                freuen uns euch das Spiel zu präsentieren. 
               </P>
               <br />
               <br />

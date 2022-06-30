@@ -38,16 +38,30 @@ text-align: right;
 }
 
 #newsletter_box{
-  float: left;
+  /* float: left;
   position: absolute;
   left: 35%;
-  top: 33%;
+  top: 33%; */
   z-index: 1000;/* 
   background-color: #ffffff;
   opacity: 0.8; */
-  padding: 5px;
-  color: #4F4065; /* 87889C */
+  padding: 20px;
+  color: white; /* 4F4065 87889C */
   font-weight: bold;
+  background-image: url(components/Newsletter/img/newsletter_background_tech.jpeg);
+}
+
+@media only screen and (max-width : 600px) {
+  
+  #newsletter_box h2{
+    color: white !important; 
+    text-align: center;
+  }
+
+}
+
+#newsletter_box h2{
+  color: white; /* #4F4065 */
 }
 
 
@@ -55,6 +69,15 @@ text-align: right;
 .contact{
   background: #525291;
   color: #4F4065; 
+  padding: 30px;
+  color: white;
+}
+
+.aboutus_container{
+  background: black;
+  color: #4F4065; 
+  padding: 30px;
+  color: white;
 }
 
 h1 {
