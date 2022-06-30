@@ -17,9 +17,15 @@ export const AboutGame = () => {
     color: white;
     font-size: clamp(1rem, 1vw, 1.5rem);
     font-weight: 500;
-    padding: 1rem 2rem 0 2rem;
+    padding: 1rem 2rem 2rem 2rem;
     text-align: left;
     font-family: "Poppins", sans-serif;
+    margin: auto;
+    width: 80%;
+
+ 
+    @media only screen and (max-width : 600px) {
+        width: 90%;
   `;
 
   const H2 = styled.h2`
@@ -45,14 +51,14 @@ export const AboutGame = () => {
         <div>
           <P>
             Unbekannt und tödlich. Die Welt steht vor einer Katastrophe
-            ungeahnten Ausmasses. Der Ursprung von " Plague " wird in einem
-            geheimen, stillgelegten Labor vermutet. Ihr Team und Sie haben den
-            Auftrag, den ursprünglichen Erreger zu Forschungszwecken zu finden.
-            In der Hoffnung, seine Schwachstelle zu finden und ein Gegenmittel
-            herzustellen. Die bisherigen Versuche, Plague aus kontaminierten
-            Menschen zu extrahieren, sind gescheitert. Deshalb ruhen die
-            Hoffnungen der Menschheit auf Ihren Schultern. Sind Sie klug genug,
-            um einen Weg durch das Labor zu finden?
+            ungeahnten Ausmasses. <br /> Der Ursprung von " Plague " wird in
+            einem geheimen, stillgelegten Labor vermutet. Ihr Team und Sie haben
+            den Auftrag, den ursprünglichen Erreger zu Forschungszwecken zu
+            finden. In der Hoffnung, seine Schwachstelle zu finden und ein
+            Gegenmittel herzustellen. <br /> Die bisherigen Versuche, Plague aus
+            kontaminierten Menschen zu extrahieren, sind gescheitert. Deshalb
+            ruhen die Hoffnungen der Menschheit auf Ihren Schultern. Sind Sie
+            klug genug, um einen Weg durch das Labor zu finden?
           </P>
         </div>
       </Main>
