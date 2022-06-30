@@ -45,10 +45,14 @@ text-align: right;
   z-index: 1000;/* 
   background-color: #ffffff;
   opacity: 0.8; */
-  padding: 20px;
+  padding: 200px 20px;
   color: white; /* 4F4065 87889C */
   font-weight: bold;
   background-image: url(components/Newsletter/img/newsletter_background_tech.jpeg);
+}
+
+#newsletter-subscription input{
+  color:red !important;
 }
 
 @media only screen and (max-width : 600px) {
