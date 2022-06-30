@@ -15,7 +15,7 @@ export const AboutGame = () => {
   // Font
   const P = styled.p`
     color: white;
-    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    font-size: clamp(1rem, 1vw, 1.5rem);
     font-weight: 500;
     padding: 1rem 2rem 0 2rem;
     text-align: left;
