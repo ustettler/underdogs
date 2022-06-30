@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.39a42069.css",
-    "main.js": "./static/js/main.9bce3f6d.js",
+    "main.js": "./static/js/main.a6676408.js",
     "static/js/787.308b2080.chunk.js": "./static/js/787.308b2080.chunk.js",
     "static/media/videoweb.gif": "./static/media/videoweb.89e6d6f0ae4dcadcad0b.gif",
     "static/media/Teamfoto.png": "./static/media/Teamfoto.3e94de0b2ecc5b06ca9c.png",
@@ -14,11 +14,11 @@
     "static/media/Logo Weiss.jpg": "./static/media/Logo Weiss.85497d08e799b4dca1f7.jpg",
     "index.html": "./index.html",
     "main.39a42069.css.map": "./static/css/main.39a42069.css.map",
-    "main.9bce3f6d.js.map": "./static/js/main.9bce3f6d.js.map",
+    "main.a6676408.js.map": "./static/js/main.a6676408.js.map",
     "787.308b2080.chunk.js.map": "./static/js/787.308b2080.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39a42069.css",
-    "static/js/main.9bce3f6d.js"
+    "static/js/main.a6676408.js"
   ]
 }

@@ -47,7 +47,7 @@ export const AboutGame = () => {
     <>
       <Main>
         {/* Ab hier kommt das HTML rein */}
-        <H2>Das Game</H2>
+        <H2>Project Kennedy - Das Game</H2>
         <div>
           <P>
             Unbekannt und tödlich. Die Welt steht vor einer Katastrophe
