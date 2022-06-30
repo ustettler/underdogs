@@ -25,12 +25,11 @@ export const Bestlist = () => {
   `;
 
   const Section1 = styled.div`
-  display:flex;
+    display: flex;
     color: white;
     justify-content: flex-start;
     align-content: flex-start;
-    text-align: right
- 
+    text-align: right;
   `;
 
   const Section2 = styled.div`
@@ -38,7 +37,7 @@ export const Bestlist = () => {
   `;
 
   const Rank1 = styled.div`
-  margin-top: 1rem;
+    margin-top: 1rem;
     color: black;
     background: gold;
     padding: 0.5rem;
@@ -64,7 +63,7 @@ export const Bestlist = () => {
     padding: 0.5rem;
     border-radius: 10px;
     border: solid 1px black;
-    font-size: 1.3rem
+    font-size: 1.3rem;
   `;
 
   const Ribbon = styled.div`
@@ -89,11 +88,10 @@ export const Bestlist = () => {
 
   // Font
   const H2 = styled.h2`
-    padding-top: 2rem;
     color: white;
-    font-size: clamp(2rem, 2.5vw, 3.5rem);
+    font-size: 2rem;
     font-weight: 600;
-    padding: 3rem 1.5rem 0 2rem;
+    padding: 1rem 1.5rem 0 2rem;
     text-align: center;
     font-family: "Poppins", sans-serif;
     text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black,

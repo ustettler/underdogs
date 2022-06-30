@@ -52,9 +52,9 @@ export const Location = () => {
   // Font
   const H2 = styled.h2`
     color: white;
-    font-size: clamp(2rem, 2.5vw, 3.5rem);
+    font-size: 2rem;
     font-weight: 600;
-    padding: 3rem 1.5rem 0 0;
+    padding: 1rem 1.5rem 0 0;
     text-align: center;
     font-family: "Poppins", sans-serif;
     text-shadow: 2px 0 0 black, -3px 0 0 black, 0 2px 0 black, 0 -2px 0 black,
@@ -128,7 +128,6 @@ export const Location = () => {
               ></iframe>
             </div>
             <br />
-           
           </Maps>
           <br />
         </Parallax>

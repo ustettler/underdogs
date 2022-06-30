@@ -24,7 +24,7 @@ export const AboutGame = () => {
 
   const H2 = styled.h2`
    color: white;
-   font-size: clamp(2rem, 2.5vw, 3.5rem);
+   font-size: 2rem;
    font-weight: 600;
    padding: 1rem 1.5rem 0 2rem;
    text-align: center;
