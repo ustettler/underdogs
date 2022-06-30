@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "./static/css/main.39a42069.css",
-    "main.js": "./static/js/main.eb1e39cd.js",
+    "main.js": "./static/js/main.9bce3f6d.js",
     "static/js/787.308b2080.chunk.js": "./static/js/787.308b2080.chunk.js",
     "static/media/videoweb.gif": "./static/media/videoweb.89e6d6f0ae4dcadcad0b.gif",
     "static/media/Teamfoto.png": "./static/media/Teamfoto.3e94de0b2ecc5b06ca9c.png",
     "static/media/videoweb.mp4": "./static/media/videoweb.47b5c5f98d9e04e1e752.mp4",
     "static/media/doggy.png": "./static/media/doggy.ca7f7a35e677cb4b646c.png",
     "static/media/image (3).png": "./static/media/image (3).ca7f7a35e677cb4b646c.png",
+    "static/media/underdog.JPG": "./static/media/underdog.961015f568ce59da3331.JPG",
     "static/media/newsletter_background_tech.jpeg": "./static/media/newsletter_background_tech.ad59fb5b51e1fb6d2531.jpeg",
-    "static/media/hg.jpg": "./static/media/hg.26ad6f843c968d72a666.jpg",
     "static/media/newsletter-background.png": "./static/media/newsletter-background.d8ca720c68643719262a.png",
     "static/media/Logo Weiss.jpg": "./static/media/Logo Weiss.85497d08e799b4dca1f7.jpg",
     "index.html": "./index.html",
     "main.39a42069.css.map": "./static/css/main.39a42069.css.map",
-    "main.eb1e39cd.js.map": "./static/js/main.eb1e39cd.js.map",
+    "main.9bce3f6d.js.map": "./static/js/main.9bce3f6d.js.map",
     "787.308b2080.chunk.js.map": "./static/js/787.308b2080.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39a42069.css",
-    "static/js/main.eb1e39cd.js"
+    "static/js/main.9bce3f6d.js"
   ]
 }

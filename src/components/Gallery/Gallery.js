@@ -23,7 +23,7 @@ export const Gallery = () => {
   const Main = styled.div`
     width: 100vw;
     height: auto;
-    background: #525291;
+    background: black;
     color: white;
     font-family: "Poppins", sans-serif;
   `;
@@ -33,7 +33,7 @@ export const Gallery = () => {
     color: white;
     font-size: 2rem;
     font-weight: 600;
-    padding: 1rem 1.5rem 0 2rem;
+    padding: 1rem 1.5rem 1rem 2rem;
     text-align: center;
     font-family: "Poppins", sans-serif;
  
@@ -51,6 +51,7 @@ export const Gallery = () => {
         <H2>Gallerie</H2>
 
         <ImageGallery items={images} />
+        <br />
       </Main>
     </>
   );

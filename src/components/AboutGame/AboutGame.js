@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import IMG from "./img/hg.jpg";
+import IMG from "./img/underdog.JPG";
 
 export const AboutGame = () => {
   //CSS
@@ -60,6 +60,7 @@ export const AboutGame = () => {
             ruhen die Hoffnungen der Menschheit auf Ihren Schultern. Sind Sie
             klug genug, um einen Weg durch das Labor zu finden?
           </P>
+          <img src={IMG} alt="underdogs" width="50%" height="auto"></img>
         </div>
       </Main>
     </>
