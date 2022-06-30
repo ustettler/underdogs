@@ -1,24 +1,24 @@
 import React from "react";
 import styled from "styled-components";
 import "react-image-gallery/styles/css/image-gallery.css";
-import ImageGallery from 'react-image-gallery';
+import ImageGallery from "react-image-gallery";
 
 export const Gallery = () => {
   const images = [
     {
-      original: 'https://web-man.ch/udpic/pic.jpg',
-      thumbnail: 'https://web-man.ch/udpic/pic.jpg',
+      original: "https://web-man.ch/udpic/pic2.jpg",
+      thumbnail: "https://web-man.ch/udpic/pic2.jpg",
     },
     {
-      original: 'https://web-man.ch/udpic/pic1.jpg',
-      thumbnail: 'https://web-man.ch/udpic/pic1.jpg',
+      original: "https://web-man.ch/udpic/pic1.jpg",
+      thumbnail: "https://web-man.ch/udpic/pic1.jpg",
     },
     {
-      original: 'https://web-man.ch/udpic/pic2.jpg',
-      thumbnail: 'https://web-man.ch/udpic/pic2.jpg',
+      original: "https://web-man.ch/udpic/pic.jpg",
+      thumbnail: "https://web-man.ch/udpic/pic.jpg",
     },
   ];
-  
+
   //CSS
   const Main = styled.div`
     width: 100vw;
@@ -50,9 +50,8 @@ export const Gallery = () => {
       <Main>
         {/* Ab hier kommt das HTML rein */}
         <H2>Gallerie</H2>
-        <br />
+
         <ImageGallery items={images} />
-        <br />
       </Main>
     </>
   );

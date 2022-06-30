@@ -101,7 +101,7 @@ export const News = () => {
           ></div>
           <SwiperSlide>
             <div className="title" data-swiper-parallax="-300">
-              <H3>MVP bald fertig</H3>
+              <H3>29.06.2022 - VR City als neuer Partner</H3>
             </div>
             <div
               className="text"
@@ -111,15 +111,15 @@ export const News = () => {
               }}
             >
               <P>
-                Der MVP von unserem Game ist fertig. Wir sind jetzt noch am
-                Testen und entwickeln das Game so schnell wie möglich für dich
-                fertig. Wir freuen uns euch das Spiel zu präsentieren.
+                Heute wurde bekannt, dass sich VR City dazu verplichtet hat in
+                den nächsten 5 Jahre die Spiele von The Underdogs in ihren
+                Filialen anzubieten. Das ist ein grosser Erfolg…weiterlesen.
               </P>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="title" data-swiper-parallax="-300">
-              <H3>Game kommt bald!</H3>
+              <H3>27.06.2022 - Project Kennedy holt neuen Investor</H3>
             </div>
             <div
               className="text"
@@ -129,12 +129,9 @@ export const News = () => {
               }}
             >
               <P>
-                Der MVP von unserem Game ist fertig. Wir sind jetzt noch am
-                Testen und entwickeln das Game so schnell wie möglich für dich
-                fertig. Wir freuen uns euch das Spiel zu präsentieren. Der MVP
-                von unserem Game ist fertig. Wir sind jetzt noch am Testen und
-                entwickeln das Game so schnell wie möglich für dich fertig. Wir
-                freuen uns euch das Spiel zu präsentieren.
+                Venturlab wird über die nächsten 3 Jahre 2.8 Milionen in die
+                Produkte von The Undergods investieren. Das dazu zur Verfügte
+                Aktienkapital belauäuft sich…weiterlesen.
               </P>
               <br />
               <br />
@@ -142,7 +139,7 @@ export const News = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="title" data-swiper-parallax="-300">
-              <H3>Unser Spiel wird richtig Nice!</H3>
+              <H3>19.06.2022 - Testlauf geglückt</H3>
             </div>
             <div
               className="text"
@@ -152,12 +149,9 @@ export const News = () => {
               }}
             >
               <P>
-                Der MVP von unserem Game ist fertig. Wir sind jetzt noch am
-                Testen und entwickeln das Game so schnell wie möglich für dich
-                fertig. Wir freuen uns euch das Spiel zu präsentieren. Der MVP
-                von unserem Game ist fertig. Wir sind jetzt noch am Testen und
-                entwickeln das Game so schnell wie möglich für dich fertig. Wir
-                freuen uns euch das Spiel zu präsentieren. 
+                Die ersten Tests haben gezeigt, dass das Spielerlebnis von
+                Project Kennedy noch nie dagewesene Höhen erreicht. Die Kritiker
+                und Community sind sich sicher das… weiterlesen.
               </P>
               <br />
               <br />

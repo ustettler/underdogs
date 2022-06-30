@@ -1,9 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import HeroVideo from "../Hero/Video/videoweb.mp4";
 // Styled Components Import
-import styled from 'styled-components';
-
-
+import styled from "styled-components";
 
 export const Hero = () => {
   // Css
@@ -12,7 +10,7 @@ export const Hero = () => {
   const attemptPlay = () => {
     videoEl &&
       videoEl.current &&
-      videoEl.current.play().catch(error => {
+      videoEl.current.play().catch((error) => {
         console.error("Error attempting to play", error);
       });
   };
@@ -21,15 +19,14 @@ export const Hero = () => {
     attemptPlay();
   }, []);
 
-  const Div = styled.div`
-  `;
+  const Div = styled.div``;
 
   const Video = styled.video`
-  margin: 5rem 0px -0.3rem;
-  @media (max-width: 768px) {
-    margin: 3rem 0px -0.3rem;
-  }
-`;
+    margin: 5rem 0px -0.3rem;
+    @media (max-width: 768px) {
+      margin: 3rem 0px -0.3rem;
+    }
+  `;
 
   return (
     <Div>
@@ -44,6 +41,6 @@ export const Hero = () => {
       />
     </Div>
   );
-}
+};
 
 export default Hero;

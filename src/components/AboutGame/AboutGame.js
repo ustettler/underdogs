@@ -1,36 +1,32 @@
 import React from "react";
-import styled from "styled-components"
-import IMG from './img/hg.jpg';
-
-
+import styled from "styled-components";
+import IMG from "./img/hg.jpg";
 
 export const AboutGame = () => {
+  //CSS
+  const Main = styled.div`
+    width: 100vw;
+    height: auto;
+    color: white;
+    background-color: #525291;
+    font-family: "Poppins", sans-serif;
+  `;
 
-   //CSS
-   const Main = styled.div`
-   width: 100vw;
-   height: 20rem;
-   color: white;
-   background-color: #525291;
-   font-family: "Poppins", sans-serif;
- `;
+  // Font
+  const P = styled.p`
+    color: white;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    font-weight: 500;
+    padding: 1rem 2rem 0 2rem;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+  `;
 
- // Font
- const P = styled.p`
- color: white;
- font-size: clamp(1rem, 1vw, 1.5rem);
- font-weight: 500;
- padding: 3rem 1.5rem 0 2rem;
- text-align: center;
- font-family: "Poppins", sans-serif;
-`;
-
- const H2 = styled.h2`
-   padding-top: 2rem;
+  const H2 = styled.h2`
    color: white;
    font-size: clamp(2rem, 2.5vw, 3.5rem);
    font-weight: 600;
-   padding: 3rem 1.5rem 0 2rem;
+   padding: 1rem 1.5rem 0 2rem;
    text-align: center;
    font-family: "Poppins", sans-serif;
 
@@ -43,12 +39,22 @@ export const AboutGame = () => {
   //Renderer
   return (
     <>
-    <Main>
-      {/* Ab hier kommt das HTML rein */}   
+      <Main>
+        {/* Ab hier kommt das HTML rein */}
         <H2>Das Game</H2>
-      <div style={{ height: 500 }}>
-      <P>Geiles Game, yeaah hier bald mehr über unser SPIEL (ABOUT GAME)</P>
-      </div>
+        <div>
+          <P>
+            Unbekannt und tödlich. Die Welt steht vor einer Katastrophe
+            ungeahnten Ausmasses. Der Ursprung von " Plague " wird in einem
+            geheimen, stillgelegten Labor vermutet. Ihr Team und Sie haben den
+            Auftrag, den ursprünglichen Erreger zu Forschungszwecken zu finden.
+            In der Hoffnung, seine Schwachstelle zu finden und ein Gegenmittel
+            herzustellen. Die bisherigen Versuche, Plague aus kontaminierten
+            Menschen zu extrahieren, sind gescheitert. Deshalb ruhen die
+            Hoffnungen der Menschheit auf Ihren Schultern. Sind Sie klug genug,
+            um einen Weg durch das Labor zu finden?
+          </P>
+        </div>
       </Main>
     </>
   );
