@@ -1,94 +1,49 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import HeroVideo from "../Hero/Video/videoweb.mp4";
 // Styled Components Import
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
+
 
 
 export const Hero = () => {
   // Css
-  const Main = styled.div`
-  background: #525291;
-  width: 100vw;
-  height: 100vh
-`;
-  const Heero = styled.div`
-  `;
+  const videoEl = useRef(null);
+
+  const attemptPlay = () => {
+    videoEl &&
+      videoEl.current &&
+      videoEl.current.play().catch(error => {
+        console.error("Error attempting to play", error);
+      });
+  };
+
+  useEffect(() => {
+    attemptPlay();
+  }, []);
 
   const Div = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 60px;
-    width: 68%;
-    height: 30rem;
-
-  @media (max-width: 768px) {
-      height: 16rem;
-    }
-    
   `;
 
-  const P = styled.p`
-    width: 720px;
-    height: 234px;
-    padding-top: 4rem;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 130%;
-    color: #fff;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
+  const Video = styled.video`
+  margin: 5rem 0px -0.3rem;
   @media (max-width: 768px) {
-      font-size: 22px;
-      width: 299px;
-    }
-  `;
-
-  const Button = styled.button`
-    box-sizing: border-box;
-    margin: 1rem;
-    padding: 0px;
-    width: 200px;
-    height: 50px;
-    background: linear-gradient(107.21deg, #C961DE 24.43%, #2954A3 68.95%);
-    box-shadow: 0px 10px 20px rgba(8, 12, 33, 0.15);
-    border-radius: 30px;
-    border-radius: 30px;
-    font-family: "Roboto", sans-serif;
-    border:none;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    color: white;
-
-    ${props => props.primary && css`
-    background: rgba(255, 255, 255, 0.3);
-    color: white;
-  `}
-
-  @media (max-width: 768px) {
-    width: 133px; 
+    margin: 3rem 0px -0.3rem;
   }
 `;
 
   return (
-    <>
-      <Main>
-        <Heero>
-          <Div>
-            <P>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</P>
-          </Div>
-          <Button primary>Play</Button>
-          <Button>Reading</Button>
-        </Heero>
-      </Main>
-    </>
+    <Div>
+      <Video
+        style={{ maxWidth: "100%", width: "100%" }}
+        playsInline
+        loop
+        // controls
+        alt="HeroVideo"
+        src={HeroVideo}
+        ref={videoEl}
+      />
+    </Div>
   );
-};
+}
 
 export default Hero;

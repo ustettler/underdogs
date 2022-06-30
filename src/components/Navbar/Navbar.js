@@ -1,15 +1,15 @@
 
 import React, { useState } from "react";
 import styled from "styled-components";
-import LogoImage from "../Navbar/img/image.png";
+import LogoImage from "../Navbar/img/Logo Weiss.jpg";
 
 export const Navbar = () => {
   // Hamburger
   const [isOpen, setIsOpen] = useState(false);
 
   const MenuLink = styled.a`
-    padding: 1rem 2rem;
-    margin:8px;
+    padding: 1rem;
+    margin:4px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -21,15 +21,19 @@ export const Navbar = () => {
     color: #FFFFFF;
     transition: all 0.3s ease-in;
     &:hover {
-      color :#b7118a;
+      color :#525291;
     }
-
+    @media (max-width: 1199px) {
+      padding: 0rem 0.5rem;
+      margin:8px;
+      font-size: 14px;
+    }
   @media (max-width: 768px) {
       text-decoration: none;
       font-size: 0.9rem;
       display: flex;
       padding: 0 1rem;
-      margin: 8px;
+      margin: 4px;
     }
   `;
 
@@ -105,7 +109,7 @@ export const Navbar = () => {
         <Logo href="">
           <img src={LogoImage} alt="Logo"
             style={{
-              width: "146px",
+              width: "100px",
               position: "relative",
               right: "0",
               bottom: "0"
