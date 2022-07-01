@@ -130,7 +130,7 @@ export const News = () => {
               <P>
                 Venturlab wird über die nächsten 3 Jahre 2.8 Milionen in die
                 Produkte von The Undergods investieren. Das dazu zur Verfügte
-                Aktienkapital belauäuft sich…weiterlesen.
+                Aktienkapital beläuft sich…weiterlesen.
               </P>
               <br />
               <br />
