@@ -1,7 +1,7 @@
 // Import ähnmlich wie CDN
 import React from "react";
 import { Grid, TextField, Button, Card, CardContent, Typography, Select, MenuItem } from '@mui/material';
-import doggy from "../Contact/img/doggy.png";
+import doggy from "../Contact/img/underdogs_logo.png";
 
 // Beginn vom Dokument am anfang kommt die Logik rein
 
@@ -18,7 +18,7 @@ export const Contact = () => {
         Kontakt
        </Typography> */}
       <Grid>
-        <Card style={{ maxWidth: 450, padding: "20px 5px", margin: "0 auto" }}>
+        <Card style={{ maxWidth: 600, padding: "20px 5px", margin: "0 auto", background: "#ddd" }}>
           <CardContent>
             <Typography gutterBottom variant="h5">
               Haben Sie Fragen?
@@ -67,7 +67,7 @@ export const Contact = () => {
                   <TextField label="Nachricht" multiline rows={4} placeholder="Nachricht eingeben" variant="outlined" fullWidth required />
                 </Grid>
                 <Grid item xs={12}>
-                  <Button type="submit" variant="contained" color="primary" fullWidth>Senden</Button>
+                  <Button id="contactFormSend" type="submit" variant="contained" color="primary" fullWidth>Senden</Button>
                 </Grid>
 
                 

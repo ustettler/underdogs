@@ -21,34 +21,25 @@ export const Newsletter = () => {
       height: 50vh;
     } `;
 
+
   //Renderer
   return (
     <>
       {/* Ab hier kommt das HTML rein */}
       <div class="newsletter_container">
         <div id="newsletter_box">
-          <h2>Newsletter Anmeldung</h2>
-          <br />
-          <br />
-          <TextField
-            id="newsletter-subscription"
-            label="E-Mail eintragen"
-            variant="standard"
-          />
-          <br />
-          <br />
+          <h2>Newsletter Anmeldung</h2><br/><br/>
+          
+
+          <TextField sx={{ input: { color: 'white' } }} id="newsletter-subscription" label="E-Mail hier eintragen" variant="standard"  
+          InputLabelProps={{
+            style: { color: '#fff' },
+          }}/>
+          <br/>
+          <br/>
           <Button variant="contained">Newsletter abonnieren</Button>
         </div>
 
-        {/* <img
-              src={newsletter_background}
-              alt="VR Escape Game"
-              style={{
-                width: "100%",
-                height: "auto",
-                backgroundSize: "cover",
-              }}
-            /> */}
       </div>
     </>
   );
