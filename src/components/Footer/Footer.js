@@ -2,6 +2,7 @@ import React from "react";
 // Styled Components Import
 import styled from "styled-components";
 import LogoImage from "../Footer/img/image (3).png"
+import { Link } from 'react-router-dom';
 
 // icon
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -118,7 +119,8 @@ export const Footer = () => {
         </Logo>
         <Hr></Hr>
         <Wrapper>
-          <Text>&copy;the-underdogs 2022</Text>
+          <Text>&copy;the-underdogs 2022 | Impressum
+</Text>
         </Wrapper>
       </Footer>
     </>
