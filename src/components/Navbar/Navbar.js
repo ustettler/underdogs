@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import LogoImage from "../Navbar/img/Logo Weiss.jpg";
+import { HashLink as Link } from 'react-router-hash-link';
 
 export const Navbar = () => {
   // Hamburger
@@ -103,7 +104,7 @@ export const Navbar = () => {
       </Hamburger>
       <Menu isOpen={isOpen}>
         <MenuLink href="">Home</MenuLink>
-        <MenuLink href="">Gallerie</MenuLink>
+        <MenuLink href="/public">Gallerie</MenuLink>
         <MenuLink href="">Ort</MenuLink>
         <MenuLink href="">News</MenuLink>
         <Logo href="">

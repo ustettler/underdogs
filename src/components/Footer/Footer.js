@@ -120,6 +120,7 @@ export const Footer = () => {
         <Hr></Hr>
         <Wrapper>
           <Text>&copy;the-underdogs 2022 | Impressum
+        
 </Text>
         </Wrapper>
       </Footer>
