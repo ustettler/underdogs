@@ -105,7 +105,7 @@ export const Navbar = () => {
       <Menu isOpen={isOpen}>
         <MenuLink href="">Home</MenuLink>
         <MenuLink href="/public">Gallerie</MenuLink>
-        <MenuLink href="">Ort</MenuLink>
+        <MenuLink >Ort</MenuLink>
         <MenuLink href="">News</MenuLink>
         <Logo href="">
           <img src={LogoImage} alt="Logo"
