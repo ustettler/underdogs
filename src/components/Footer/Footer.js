@@ -141,7 +141,7 @@ HAFTUNG FÜR LINKS<br/>
 Verweise und Links auf Webseiten Dritter liegen ausserhalb unseres Verantwortungsbereichs. Es wird jegliche Verantwortung für solche Webseiten abgelehnt. Der
 Zugriff und die Nutzung solcher Webseiten erfolgen auf eigene Gefahr des Nutzers oder der Nutzerin.
 URHEBERRECHTE<br/>
-Die Urheber- und alle anderen Rechte an Inhalten. Bildern, Fotos oder anderen Dateien auf der Website gehören ausschliesslich der Firma Underdogs oder den
+Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf der Website gehören ausschliesslich der Firma Underdogs oder den
 speziell genannten Rechtsinhabern. Für die Reproduktion jeglicher Elemente ist die schriftliche Zustimmung der Urheberrechtsträger im Voraus einzuholer
 QUELLE<br/>
 Dieses Impressum wurde am 8.07.2022 mit dem Impressum Generator der Webdesign Agentur Webkönig erstellt. Die Agentur
