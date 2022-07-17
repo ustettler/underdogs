@@ -100,7 +100,7 @@ export const News = () => {
           ></div>
           <SwiperSlide>
             <div className="title" data-swiper-parallax="-300">
-              <H3>29.06.2022 - VR City als neuer Partner</H3>
+              <H3>12.08.2022 - MVP ist bereit</H3>
             </div>
             <div
               className="text"
@@ -110,15 +110,13 @@ export const News = () => {
               }}
             >
               <P>
-                Heute wurde bekannt, dass sich VR City dazu verplichtet hat in
-                den nächsten 5 Jahre die Spiele von The Underdogs in ihren
-                Filialen anzubieten. Das ist ein grosser Erfolg…weiterlesen.
+                Der MVP des Games ist fertig und wird derzeitig ausgiebig getestet.
               </P>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="title" data-swiper-parallax="-300">
-              <H3>27.06.2022 - Project Kennedy holt neuen Investor</H3>
+              <H3>27.07.2022 - Project Kennedy ist bereit</H3>
             </div>
             <div
               className="text"
@@ -128,9 +126,8 @@ export const News = () => {
               }}
             >
               <P>
-                Venturlab wird über die nächsten 3 Jahre 2.8 Milionen in die
-                Produkte von The Undergods investieren. Das dazu zur Verfügte
-                Aktienkapital beläuft sich…weiterlesen.
+              Project Kennedy ist bereit für Investoren die über die nächsten 3 Jahre 2.8 Milionen in die
+                Produkte von The Undergods investieren wollen.
               </P>
               <br />
               <br />
