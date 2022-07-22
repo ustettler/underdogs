@@ -16,10 +16,8 @@ export const impressum = () => {
 Underdogs
 Buckhauserstrasse 24, 8048 Zurich, Switzerland
 Vertreten durch:
-Buckhauserstrasse 24, 8048 Zurich, Switzerland
-Buckhauserstrasse 24, 8048 Zurich, Switzerland
-Telefonnummer:	044 200 12 12
-E-Mail Adresse:	info@projectkennedy.ch
+Buckhauserstrasse 24, 8048 Zurich, Switzerlans
+E-Mail Adresse:	info@projectkennedy.com
  
 Haftungsausschluss
 Haftung für Inhalte

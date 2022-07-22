@@ -123,14 +123,12 @@ export const Footer = () => {
         <Hr></Hr>
         <Wrapper>
           <Text>&copy;the-underdogs 2022 |  <Popup    trigger={open => (      <button className="button">Impressum {open ? '' : ''}</button>    )}    position="top left"    closeOnDocumentClick  >    <span> KONTAKTADRESSE
-Underdogs
+Underdogs AG
 Buckhauserstrasse24
 8048 Zurich,
 Schweiz
-info@projectkennedy.ch
-VERTRETUNGS-<br/>
-BERECHTIGTE PERSONEN<br/>
-Hans Müller, <br/>Geschäftsführer
+info@projectkennedy.com
+
 HAFTUNGSAUSSCHLUSS
 Der Autor ubernimmt keinerlei Gewähr hinsichtlich der Inhaltlichen Richtigkeit, Genauigkeit, Aktualitat, Zuverlassigkeit und Vollständigkeit der Informationen
 Hattungsanspruche gegen den Autor wegen Schäden materieller oder immaterieller Art, welche aus dem Zugriff oder der Nutzuna bzw. Nichtnutzung der
